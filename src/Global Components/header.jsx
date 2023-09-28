@@ -20,10 +20,10 @@ useEffect(() => {
 }, [location]);
 
 
-const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-jet text-snow border-night border-b-[3px] duration-300'
+const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-snow text-snow border-black border-b-[3px] duration-300'
 
     return(
-        <div className="flex justify-between items-center w-full bg-night border-b-2 py-8 px-10 border-jet h-12 text-snow">
+        <div className="flex justify-between items-center w-full bg-black border-b-1 py-8 px-10 border-jet h-12 text-snow">
                 <div className={logoEffect}>Escher World</div>
                 <ul className="hidden md:flex text-[16px] ease-in-out duration-500">
                     <li className={linkStyle}> 
@@ -32,12 +32,12 @@ const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-jet text
                         </NavLink>
                     </li>
                     <li className={linkStyle}> 
-                        <NavLink to={`contributors`}>
+                        <NavLink to={`contributor-works`}>
                             Contributor Gallery
                         </NavLink>
                     </li>
                     <li className={linkStyle}>
-                    <NavLink to={`collection`}>
+                    <NavLink to={`escher-gallery`}>
                             Escher Collection
                         </NavLink>
                     </li>

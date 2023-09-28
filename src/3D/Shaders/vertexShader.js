@@ -51,12 +51,12 @@ void main()
     /**
      * Position
      */
-    vec4 modelPosition = modelMatrix * vec4(position, 1.0);
+    vec4 modelPosition = modelMatrix * vec4(position, 2.0);
                 
     // Rotate
-    float angle = atan(modelPosition.x, modelPosition.z);
-    float distanceToCenter = length(modelPosition.xz);
-    float angleOffset = (1.0 / distanceToCenter) * uTime;
+    float angle = atan(modelPosition.x, modelPosition.z) ;
+    float distanceToCenter = length(modelPosition.xz) ;
+    float angleOffset = (2.0 / distanceToCenter) * uTime;
     angle += angleOffset;
     modelPosition.x = cos(angle) * distanceToCenter;
     modelPosition.z = sin(angle) * distanceToCenter;

@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Home from './Home/home'
 import Root from './routes/root';
+import ContributorGallery from './ContributorWorks/ContributorGallery';
+import Gallery from './Gallery/Gallery';
+import Contact from './Contact/Contact';
+import ContributorWork from './ContributorWorks/ContributorWork';
+import EscherWork from './Gallery/EsherWork';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -24,6 +29,27 @@ element:<Home/>},
       {
         path:'/home',
         element: <Home/>
+      },
+      {
+        path: "/contributor-works",
+        element: <ContributorGallery/>,
+      },
+      {
+        path: "/contributor-works/artwork/:id",
+        element: <ContributorWork/>,
+      },
+      {
+        path: "/escher-gallery",
+        element: <Gallery/>,
+      }
+      ,
+      {
+        path: "/gallery/artwork/:id",
+        element: <EscherWork/>,
+      },
+      {
+        path: "/contact",
+        element: <Contact/>,
       }
     ]
   },

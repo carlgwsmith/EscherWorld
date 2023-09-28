@@ -15,13 +15,13 @@ export default function Galaxy(){
 
     parameters.count = 25000
     parameters.size = 4
-    parameters.radius = 50
-    parameters.branches = 8
+    parameters.radius = 30
+    parameters.branches = 20
     parameters.spin = 5
     parameters.randomness = 0.092
     parameters.randomnessPower = 3
-    parameters.insideColor = '#aa25d2'
-    parameters.outsideColor = '#29af9f'
+    parameters.insideColor = '#5d9b84'
+    parameters.outsideColor = '#666666'
 
     const uniforms = useMemo(()=>({
         uTime: {
@@ -33,7 +33,7 @@ export default function Galaxy(){
         // }
         ,
         uSize: {
-            value: 80 * (Math.min(window.devicePixelRatio, 2))
+            value: 120 * (Math.min(window.devicePixelRatio, 2))
         },
     }
     ), [])

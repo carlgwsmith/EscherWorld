@@ -29,13 +29,13 @@ void main()
     // strength = 1.0 - strength;
 
     // Light point
-    float strength = distance(gl_PointCoord, vec2(0.5));
+    float strength = distance(gl_PointCoord, vec2(0.25));
     strength = 1.0 - strength;
-    strength = pow(strength, 10.0);
+    strength = pow(strength, 4.0);
 
     // Final color
     vec3 color = mix(vec3(0.0), vColor, strength);
-    gl_FragColor = vec4(color, 1.0);
+    gl_FragColor = vec4(color, .80);
 }
 `
 
