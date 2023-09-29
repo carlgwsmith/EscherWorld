@@ -1,4 +1,4 @@
-export default function EscherWork(){
+export default function EscherWork(props){
     return(<>
     Esher work here
     </>)

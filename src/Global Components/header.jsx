@@ -32,17 +32,17 @@ const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-snow tex
                         </NavLink>
                     </li>
                     <li className={linkStyle}> 
-                        <NavLink to={`contributor-works`}>
+                        <NavLink to={`/contributor-works`}>
                             Contributor Gallery
                         </NavLink>
                     </li>
                     <li className={linkStyle}>
-                    <NavLink to={`escher-gallery`}>
+                    <NavLink to={`/escher-gallery`}>
                             Escher Collection
                         </NavLink>
                     </li>
                     <li className={linkStyle}> 
-                    <NavLink to={`contact`}>
+                    <NavLink to={`/contact`}>
                             Contact
                         </NavLink>
                     </li>
@@ -59,16 +59,16 @@ const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-snow tex
                     </div>
                     <ul className="uppercase">
                         <li className="p-4">
-                        <NavLink to={`home`}>Home</NavLink>
+                        <NavLink to={`/home`}>Home</NavLink>
                         </li>
                         <li className="p-4">
-                            <NavLink to={`portfolio`}>Contributor Gallery</NavLink>
+                            <NavLink to={`/contributor-works`}>Contributor Gallery</NavLink>
                         </li>
                         <li className="p-4">
-                        <NavLink to={`resume`}>Escher Collection</NavLink>
+                        <NavLink to={`/escher-gallery`}>Escher Collection</NavLink>
                         </li>
                         <li className="p-4">
-                        <NavLink to={`contact`}>Contact</NavLink>
+                        <NavLink to={`/contact`}>Contact</NavLink>
                         </li>
                 </ul>
                 </div>

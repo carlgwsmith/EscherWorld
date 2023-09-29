@@ -12,7 +12,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #131515;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,6 +27,19 @@
   --snow-color: #FFFAFB;
   --purpleCTA-color: #6941C6;
   --background-light-color:#FFFCF4;
+  --inactive-text: #667085;
+}
+.sort-active{
+  background-color: var(--purpleCTA-color);
+  padding: 8px 16px;
+  border-radius:8px;
+  line-height:inherit;
+  font-weight: 600;
+}
+.sort-inactive{
+  color: var(--inactive-text);
+  font-weight: 600;
+  padding: 8px 16px;
 }
 p{
   margin-bottom: 16px;
@@ -75,6 +88,11 @@ canvas{
   height: 100%;
   border-radius: 4px;
   padding: 24px;
+}
+.contributorPod{
+  border:1px solid var(--jet-color);
+  height: 100%;
+  border-radius: 4px;
 }
 .separator{
   border-color: var(--jet-color) !important;

@@ -16,7 +16,7 @@ export default function FeaturedWorks(props){
                 <div className="grid grid-cols-auto :grid-cols-1 mdlg:grid-cols-3 gap-10 items-center mt-10">
                     <div className={props.cardMargin}>
                     <WorkCard
-                        featuredImg='./Images/marcoLizards.png'
+                        featuredImg='/Images/marcoLizards.png'
                         projName="Art Title"
                         projDesc="some stuff about the art"
                         buttonCTA="View Artwork"

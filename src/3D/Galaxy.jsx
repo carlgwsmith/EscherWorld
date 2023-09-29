@@ -42,7 +42,7 @@ export default function Galaxy(){
         const { clock } = state;
         points.current.material.uniforms.uTime.value = clock.elapsedTime 
 
-        console.log(points)
+        // console.log(points)
     })
 
 

@@ -18,7 +18,6 @@ element:<Home/>},
   {
     path:'',
     element: <Root/>,
-    errorElement: <Home/>,
     children:[
       {
         index:true,
@@ -32,7 +31,7 @@ element:<Home/>},
       },
       {
         path: "/contributor-works",
-        element: <ContributorGallery/>,
+        element: <ContributorGallery/>
       },
       {
         path: "/contributor-works/artwork/:id",
