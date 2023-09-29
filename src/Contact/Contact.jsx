@@ -4,13 +4,13 @@ export default function Contact(){
 
     const inputStyle='p-2 border-solid border-2 border-slate-900 rounded-md mb-5 focus:bg-slate-100'
     const submitStyle='bg-sunglow h-10 px-4 text-jet font-semibold float-right rounded-md hover:opacity-80'
-    const labelStyle='block text-jet mb-1'
+    const labelStyle='block text-snow mb-1'
     return(
     <div>
         <div className="xs: px-3 m-auto grid mt-16 mb-28 px-[100px]">
             <div>
-                <h1 className="text-4xl font-bold mb-10 text-jet">
-                Would love to hear from you, Let’s talk. <span class="wave">👋</span>
+                <h1 className="text-4xl font-bold mb-10 text-snow">
+                Tell us about yourself
                 </h1>
             <form action="https://api.web3forms.com/submit" method="POST">
             <input className={inputStyle} type="hidden" name="access_key" value={import.meta.env.VITE_REACT_APP_WEB3FORMS_KEY}/>
@@ -22,6 +22,12 @@ export default function Contact(){
                     <div>
                         <label  className={labelStyle} for="emailaddress">Email Address <span className="text-rose-800">*</span></label>
                         <input className={inputStyle + ' h-14 w-full'} id="emailaddress" type="email" name="email" required placeholder="test@test.com"/>
+                    </div>
+                </div>
+                <div className="grid grid-cols-2">
+                <div className="col-span-2">
+                        <label  className={labelStyle} for="phonenumber">Phone Number <span className="text-rose-800">*</span></label>
+                        <input className={inputStyle + ' h-14 w-full'} id="phonenumber" type="phone" name="phone" required placeholder="(555) 000-0000"/>
                     </div>
                 </div>
                 <label for="message" className={labelStyle}>Full Name <span className="text-rose-800">*</span></label>
