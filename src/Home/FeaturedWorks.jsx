@@ -20,7 +20,7 @@ export default function FeaturedWorks(props){
                         projName="Art Title"
                         projDesc="some stuff about the art"
                         buttonCTA="View Artwork"
-                        buttonLink={`/portfolio/agentxplore`}
+                        buttonLink={`/contributor-works/artwork/1`}
                     />
                     </div>
                     <div>
@@ -29,7 +29,7 @@ export default function FeaturedWorks(props){
                         projName="Art Title"
                         projDesc="some stuff about the art"
                         buttonCTA="View Artwork"
-                        buttonLink={`/portfolio/agentxplore`}
+                        buttonLink={`/contributor-works/artwork/1`}
                     />
                     </div>
                     <div className={props.cardMargin}>
@@ -38,7 +38,7 @@ export default function FeaturedWorks(props){
                         projName="Art Title"
                         projDesc="some stuff about the art"
                         buttonCTA="View Artwork"
-                        buttonLink={`/portfolio/agentxplore`}
+                        buttonLink={`/contributor-works/artwork/1`}
                     />
                     </div>
                 </div>
