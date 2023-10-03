@@ -29,7 +29,9 @@ export default function GalleryList({ itemsPerPage }){
   
     return (
       <>
+      <div className="grid grid-cols-4 gap-4 mx-[40px] my-[24px]">
         <GalleryCard currentItems={currentItems} />
+        </div>
         <ReactPaginate
           nextLabel="next >"
           onPageChange={handlePageClick}

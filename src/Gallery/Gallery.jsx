@@ -49,9 +49,7 @@ export default function Gallery(props){
             <h2 className="text-4xl text-center font-bold">M.C. Escher Collection</h2>
         </div>
     </div>
-    <div className="grid grid-cols-4 gap-4 mx-[40px] my-[24px]">
-    <GalleryList itemsPerPage={10} />
-    </div>
+    <GalleryList itemsPerPage={12} />
     </>
     )
 }
