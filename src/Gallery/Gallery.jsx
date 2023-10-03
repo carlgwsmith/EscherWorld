@@ -1,13 +1,14 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import ContributorCard from '../ContributorWorks/ContributorCard'
-import pathArray from './Paths.jsx'
-import { useEffect } from "react";
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// import ContributorCard from '../ContributorWorks/ContributorCard'
+// import { useEffect } from "react";
+import GalleryList from "./GalleryList"
+
 
 export default function Gallery(props){
 
-    const worksPaths = pathArray
+    // const worksPaths = pathArray
 
     
     // useEffect(() => {
@@ -49,10 +50,8 @@ export default function Gallery(props){
         </div>
     </div>
     <div className="grid grid-cols-4 gap-4 mx-[40px] my-[24px]">
-        {worksPaths.map(work =>
-            <div>
-            <ContributorCard img={work.url} title={work.name}/>
-            </div>)}
+    <GalleryList itemsPerPage={10} />
     </div>
-    </>)
+    </>
+    )
 }
