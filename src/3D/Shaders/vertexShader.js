@@ -57,14 +57,14 @@ void main()
     float angle = atan(modelPosition.x, modelPosition.z) ;
     float distanceToCenter = length(modelPosition.xz) ;
     float angleOffset = (2.0 / distanceToCenter) * uTime;
-    angle += angleOffset;
+    angle += angleOffset ;
     modelPosition.x = cos(angle) * distanceToCenter;
     modelPosition.z = sin(angle) * distanceToCenter;
 
     // Randomness
     modelPosition.xyz += aRandomness;
 
-    vec4 viewPosition = viewMatrix * modelPosition;
+    vec4 viewPosition = viewMatrix * modelPosition ;
     vec4 projectedPosition = projectionMatrix * viewPosition;
     gl_Position = projectedPosition;
 
