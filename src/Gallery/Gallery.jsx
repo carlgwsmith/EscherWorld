@@ -4,25 +4,37 @@
 // import ContributorCard from '../ContributorWorks/ContributorCard'
 // import { useEffect } from "react";
 import GalleryList from "./GalleryList"
-
+import { useEffect, useState } from "react";
+import Skeleton from "react-loading-skeleton";
+// import pathArray from "./Paths";
 
 export default function Gallery(props){
+    const [loading, setLoading] = useState(true);
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 2000);
+    }, []);
 
     // const worksPaths = pathArray
 
-    
+    // const newArray = []
     // useEffect(() => {
 
     //     for (let i = 0; i < worksPaths.length; i++) {
     //         let imgObj = {
     //             name: '',
     //             url:'',
+    //             thumb:'',
     //         }
-    //         imgObj.name = worksPaths[i].slice(25, -4)
-    //         imgObj.url = worksPaths[i]
+    //         imgObj.name = worksPaths[i].name
+    //         imgObj.url = worksPaths[i].url
+    //         imgObj.thumb = '/Images/EsherThumbnail/' + worksPaths[i].url.slice(20, -4) + '.jpg'
 
     //         newArray.push(imgObj)
+            
     //     }
+    //     console.log(newArray)
     // }, []);
     
         // TODO: Add SDKs for Firebase products that you want to use
@@ -49,7 +61,14 @@ export default function Gallery(props){
             <h2 className="text-4xl text-center font-bold">M.C. Escher Collection</h2>
         </div>
     </div>
+    { loading ? 
+                <div className="bg-white">
+                <Skeleton height={218}/>
+                <Skeleton count={4}/>
+                </div>
+                :
     <GalleryList itemsPerPage={12} />
+    }
     </>
     )
 }

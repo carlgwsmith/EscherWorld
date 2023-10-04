@@ -11,7 +11,7 @@ export default function GalleryCard({currentItems}){
         <div key={index} className="grid grid-cols-12 contributorPod pb-4">
             <div className="col-span-12">
             <div className="items-center justify-center flex">
-                    <img src={item.url} style={{width: '100%'}}/>
+                    <img src={item.thumb} style={{width: '100%'}}/>
                 </div>
             </div>
             <div className="col-span-12 mb-4 m-4">
