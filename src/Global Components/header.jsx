@@ -16,7 +16,6 @@ const location = useLocation()
 useEffect(() => {
     setNavbarOpen(false);
     setLogoEffect(' font-bold tracking-in-expand text-[24px] tracking-tighter text-snow')
-    console.log(location)
 }, [location]);
 
 
@@ -37,7 +36,7 @@ const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-snow tex
                         </NavLink>
                     </li>
                     <li className={linkStyle}>
-                    <NavLink to={`/escher-gallery`}>
+                    <NavLink to={`/gallery`}>
                             Escher Collection
                         </NavLink>
                     </li>
@@ -65,7 +64,7 @@ const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-snow tex
                             <NavLink to={`/contributor-works`}>Contributor Gallery</NavLink>
                         </li>
                         <li className="p-4">
-                        <NavLink to={`/escher-gallery`}>Escher Collection</NavLink>
+                        <NavLink to={`/gallery`}>Escher Collection</NavLink>
                         </li>
                         <li className="p-4">
                         <NavLink to={`/contact`}>Contact</NavLink>

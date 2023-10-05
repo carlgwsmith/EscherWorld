@@ -5,37 +5,33 @@
 // import { useEffect } from "react";
 import GalleryList from "./GalleryList"
 import { useEffect, useState } from "react";
-import Skeleton from "react-loading-skeleton";
-// import pathArray from "./Paths";
+// import Skeleton from "react-loading-skeleton";
+import pathArray from "./Paths";
 
 export default function Gallery(props){
-    const [loading, setLoading] = useState(true);
+
+    const worksPaths = pathArray
+
+    const newArray = []
     useEffect(() => {
-        setTimeout(() => {
-            setLoading(false)
-        }, 2000);
-    }, []);
 
-    // const worksPaths = pathArray
+        for (let i = 0; i < worksPaths.length; i++) {
+            let imgObj = {
+                name: '',
+                url:'',
+                thumb:'',
+                id: 0
+            }
+            imgObj.name = worksPaths[i].name
+            imgObj.url = worksPaths[i].url
+            imgObj.thumb = '/Images/EsherThumbnail/' + worksPaths[i].url.slice(20, -4) + '.jpg'
+            imgObj.id = i + 1
 
-    // const newArray = []
-    // useEffect(() => {
-
-    //     for (let i = 0; i < worksPaths.length; i++) {
-    //         let imgObj = {
-    //             name: '',
-    //             url:'',
-    //             thumb:'',
-    //         }
-    //         imgObj.name = worksPaths[i].name
-    //         imgObj.url = worksPaths[i].url
-    //         imgObj.thumb = '/Images/EsherThumbnail/' + worksPaths[i].url.slice(20, -4) + '.jpg'
-
-    //         newArray.push(imgObj)
+            newArray.push(imgObj)
             
-    //     }
-    //     console.log(newArray)
-    // }, []);
+        }
+        console.log(newArray)
+    }, []);
     
         // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -61,14 +57,8 @@ export default function Gallery(props){
             <h2 className="text-4xl text-center font-bold">M.C. Escher Collection</h2>
         </div>
     </div>
-    { loading ? 
-                <div className="bg-white">
-                <Skeleton height={218}/>
-                <Skeleton count={4}/>
-                </div>
-                :
+
     <GalleryList itemsPerPage={12} />
-    }
     </>
     )
 }

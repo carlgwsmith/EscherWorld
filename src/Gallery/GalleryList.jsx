@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import pathArray from "./Paths";
 import ReactPaginate from "react-paginate";
 import GalleryCard from "./GalleryCard";
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 export default function GalleryList({ itemsPerPage }){
     // We start with an empty list of items.
@@ -33,12 +35,12 @@ export default function GalleryList({ itemsPerPage }){
         <GalleryCard currentItems={currentItems} />
         </div>
         <ReactPaginate
-          nextLabel="next >"
+          nextLabel=">"
           onPageChange={handlePageClick}
           pageRangeDisplayed={3}
           marginPagesDisplayed={2}
           pageCount={pageCount}
-          previousLabel="< previous"
+          previousLabel="<"
           pageClassName="page-item"
           pageLinkClassName="page-link"
           previousClassName="page-item"
