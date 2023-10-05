@@ -6,9 +6,11 @@ export default function ContributorCard (props){
     return(<>
     <div className="grid grid-cols-12 contributorPod pb-4">
         <div className="col-span-12">
+        <Link to={'/contributor-works/artwork/' + props.id}>
         <div className="items-center justify-center flex">
                 <img src={props.img} style={{width: '100%'}}/>
             </div>
+            </Link>
         </div>
         <div className="col-span-12 mb-4 m-4">
             <Link to={'/contributor-works/artwork/' + props.id}>
