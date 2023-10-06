@@ -32,8 +32,8 @@ export default function ContributorGallery (props){
             <p className='text-center text-md'>A look into what our contributors are creating.</p>
         </div>
     </div>
-    <div className="grid sm:grid-cols-1 md:grid-cols-8 gap-4 my-4 text-center xs:mx-[20px] sm:mx-[20px] mb-[40px]">
-        <div className="xs:col-span-1 md:col-span-6">
+    <div className="grid sm:grid-cols-1 md:grid-cols-12 gap-4 my-4 text-center xs:mx-[20px] sm:mx-[20px] md:mx-[80px] mb-[40px]">
+        <div className="xs:col-span-1 md:col-span-12">
             <p className="text-snow font-bold uppercase">Select a Medium</p>
         </div>
         <div className="xs:col-span-1 md:col-span-2 sort-active">Featured</div>

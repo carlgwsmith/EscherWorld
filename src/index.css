@@ -98,7 +98,7 @@ canvas{
   padding: 24px;
 }
 .contributorPod{
-  border:1px solid var(--jet-color);
+  border:2px solid var(--jet-color);
   height: 100%;
   border-radius: 4px;
 }

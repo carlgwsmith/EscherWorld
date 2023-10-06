@@ -23,7 +23,7 @@ export default function GalleryCard({currentItems}){
         </div>
         : */}
     { currentItems && currentItems.map((item, index) =>
-        <div key={index} className="grid grid-cols-12 contributorPod pb-4">
+        <div key={index} className="grid grid-cols-12 contributorPod pb-4 bg-jet">
             <div className="col-span-12">
             <Link to={'/gallery/artwork/' + [item.id]}>
             <div className="items-center justify-center flex">
@@ -39,8 +39,8 @@ export default function GalleryCard({currentItems}){
             <div className="col-span-6 my-2 mx-4">
                 Avatar
             </div>
-           <div className='col-span-3 text-right my-2 mx-4'><AiOutlineHeart className="inline"/> 1.4k</div>
-           <div className='col-span-3 text-right my-2 mx-4'><AiFillEye className="inline"/> 400</div>
+           <div className='col-span-3 text-right my-2 mx-2'><AiOutlineHeart className="inline"/> 1.4k</div>
+           <div className='col-span-3 text-right my-2 mx-2'><AiFillEye className="inline"/> 400</div>
         </div>
         )}
         {/* } */}
