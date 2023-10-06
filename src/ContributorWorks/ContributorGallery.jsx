@@ -32,16 +32,16 @@ const firebaseConfig = {
             <p className='text-center text-md'>A look into what our contributors are creating.</p>
         </div>
     </div>
-    <div className="grid grid-cols-12 gap-4 my-4 text-center mx-[100px]">
-        <div className="col-span-12 mb-[40px]">
+    <div className="grid sm:grid-cols-1 md:grid-cols-8 gap-4 my-4 text-center xs:mx-[20px] sm:mx-[20px] mb-[40px]">
+        <div className="xs:col-span-1 md:col-span-6">
             <p className="text-snow font-bold uppercase">Select a Medium</p>
         </div>
-        <div className="col-span-2 sort-active">Featured</div>
-        <div className="col-span-2 sort-inactive">Paintings</div>
-        <div className="col-span-2 sort-inactive">Drawing</div>
-        <div className="col-span-2 sort-inactive">Printmaking</div>
-        <div className="col-span-2 sort-inactive">Woodblocks</div>
-        <div className="col-span-2 sort-inactive">Digital</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-active">Featured</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Paintings</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Drawing</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Printmaking</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Woodblocks</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Digital</div>
     </div>
     <div className="grid grid-cols-3 gap-4 my-10 mx-[100px]">
         <ContributorCard title="Reptiles" img="/Images/marcoLizards.png" id="1"/>

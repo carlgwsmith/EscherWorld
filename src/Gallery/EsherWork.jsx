@@ -26,34 +26,32 @@ export default function EscherWork(props){
 
     return(<>
     <div className='mx-[40px]'>
-    <div className="grid grid-cols-6 gap-4 my-[36px]">
-        <Link to="/gallery">
-        <div className="button  p-4 text-sm text-snow
-                        font-semibold rounded-lg bg-purpleCTA 
-                        text-center hover:bg-opacity-80 hover:shadow-sm duration-300">
-                        <IoReturnUpBackOutline size="32px" className="inline pr-[4px]"/> Back to Escher Gallery
-                        </div>
-                    </Link>
+    <div className="grid xs:grid-cols-1 md:grid-cols-8 gap-4 my-[36px]">
+        <div className="xs:grid-cols-1 md:col-span-2">
+            <Link to="/gallery">
+                <div className="button p-4 text-sm text-snow font-semibold rounded-lg bg-purpleCTA text-center hover:bg-opacity-80 hover:shadow-sm duration-300"> <IoReturnUpBackOutline size="32px" className="inline pr-[4px]"/> Back to Escher Gallery</div>
+            </Link>
+        </div>
     </div>
     <div className="grid grid-cols-8 gap-4 my-[24px]">
-        <div className='col-span-2 text-center'>
-            <IoArrowBack className="inline"/> Previous work in Collection
+    <div className='col-span-8'>
+            <h2 className="xs:text-[24px] md:text-4xl text-center font-bold">{workName || 'Artwork Title / Heading' }</h2>
         </div>
-        <div className='col-span-4'>
-            <h2 className="text-4xl text-center font-bold">{workName || 'Artwork Title / Heading' }</h2>
+        <div className='col-span-4 text-left'>
+            <IoArrowBack className="inline"/> Previous Work
         </div>
-        <div className='col-span-2 text-center'>
-        Next work in Collection <IoArrowForward className="inline"/>
+        <div className='col-span-4 text-right'>
+        Next Work <IoArrowForward className="inline"/>
         </div>
     </div>
     <hr className='separator'/>
-    <div className="grid grid-cols-6 gap-4  my-[24px]">
-        <div className='col-span-4'>
+    <div className="grid xs:grid-cols-1 md:grid-cols-6 gap-4  my-[24px]">
+        <div className='xs:col-span-1 md:col-span-4'>
             <div className="artPod items-center justify-center flex">
                 <img src={workImg}/>
             </div>
         </div>
-        <div className="col-span-2">
+        <div className="xs:col-span-1 md:col-span-2">
             <div className="artPod">
             <h3 className='text-lg font-bold mb-[24px]'>About This Artwork</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Ut sagittis et vulputate et elementum.Lorem ipsum dolor sit amet consectetur. Ut sagittis et vutate et elementum. Lorem ipsum dolor sit amet nsectetur. Ut sagittis et vulputate et eletum.Lorem ipsum dolor sit amet consectetur. Ut sagittis et vulputate et elentum.</p>
