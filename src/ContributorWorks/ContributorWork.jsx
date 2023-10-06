@@ -49,7 +49,7 @@ export default function ContributorWork (props){
             <p>Ut sagis et vulputate et elementum.Lorem psum dolor sit amet consectetur. Ut sagittis et vulputate et el. Lorem ipsum dolor sit amet consectetur. Ut sgittis et vulputate et elementum.Lorem ipsum dolor sit amet consectetur.</p>
             <p>Ut sagittis et vutate et elementum. Lorem ipsum dolor sit amet consectetur. </p>
             {/* <Link to={props.buttonLink}> */}
-                        <div className="button  p-4 text-sm text-white
+                        <div className="button  p-4 text-sm text-snow
                         font-semibold rounded-lg bg-purpleCTA 
                         text-center hover:bg-opacity-80 hover:shadow-sm duration-300">
                             View Artist Bio

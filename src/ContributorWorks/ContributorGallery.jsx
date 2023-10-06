@@ -28,12 +28,13 @@ const firebaseConfig = {
     return(<>
     <div className="grid grid-cols-3 gap-4 mt-[60px] mb-[20px]">
         <div className='col-span-3'>
-            <h2 className="text-4xl text-center font-bold">{props.artworkTitle || 'Artwork Title / Heading' }</h2>
+            <h2 className="text-4xl text-center font-bold">Contributor Gallery</h2>
+            <p className='text-center text-md'>A look into what our contributors are creating.</p>
         </div>
     </div>
     <div className="grid grid-cols-12 gap-4 my-4 text-center mx-[100px]">
         <div className="col-span-12 mb-[40px]">
-            <p className="text-white font-bold">Select a Medium</p>
+            <p className="text-snow font-bold uppercase">Select a Medium</p>
         </div>
         <div className="col-span-2 sort-active">Featured</div>
         <div className="col-span-2 sort-inactive">Paintings</div>

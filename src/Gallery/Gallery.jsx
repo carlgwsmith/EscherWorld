@@ -52,10 +52,20 @@ export default function Gallery(props){
 //   const app = initializeApp(firebaseConfig);
 //   const analytics = getAnalytics(app);
     return(<>
-    <div className="grid grid-cols-3 gap-4 my-[24px]">
+    <div className="grid grid-cols-3 gap-4 mt-[60px] mb-[20px]">
         <div className='col-span-3'>
             <h2 className="text-4xl text-center font-bold">M.C. Escher Collection</h2>
+            <p className='text-center text-md'>A look into what our M.C. Escher Collection</p>
         </div>
+    </div>
+    <div className="grid sm:grid-cols-1 md:grid-cols-8 gap-4 my-4 text-center xs:mx-[20px] sm:mx-[20px] mb-[40px]">
+        <div className="xs:col-span-1 md:col-span-8">
+            <p className="text-snow font-bold uppercase">Select a Medium</p>
+        </div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Paintings</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-active">Drawing</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Printmaking</div>
+        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Woodblocks</div>
     </div>
 
     <GalleryList itemsPerPage={12} />

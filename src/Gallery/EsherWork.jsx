@@ -1,4 +1,4 @@
-import {IoReturnUpBackOutline, } from 'react-icons/io5'
+import {IoReturnUpBackOutline, IoArrowBack, IoArrowForward} from 'react-icons/io5'
 import {PiCameraBold} from 'react-icons/pi'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -26,14 +26,24 @@ export default function EscherWork(props){
 
     return(<>
     <div className='mx-[40px]'>
-    <div className="grid grid-cols-1 gap-4 my-[24px]">
-        <Link to="/gallery/">
-        <div className='underline'><IoReturnUpBackOutline size="20px" className="inline"/> Back to Escher Gallery</div>
-        </Link>
+    <div className="grid grid-cols-6 gap-4 my-[36px]">
+        <Link to="/gallery">
+        <div className="button  p-4 text-sm text-snow
+                        font-semibold rounded-lg bg-purpleCTA 
+                        text-center hover:bg-opacity-80 hover:shadow-sm duration-300">
+                        <IoReturnUpBackOutline size="32px" className="inline pr-[4px]"/> Back to Escher Gallery
+                        </div>
+                    </Link>
     </div>
-    <div className="grid grid-cols-3 gap-4 my-[24px]">
-        <div className='col-span-3'>
+    <div className="grid grid-cols-8 gap-4 my-[24px]">
+        <div className='col-span-2 text-center'>
+            <IoArrowBack className="inline"/> Previous work in Collection
+        </div>
+        <div className='col-span-4'>
             <h2 className="text-4xl text-center font-bold">{workName || 'Artwork Title / Heading' }</h2>
+        </div>
+        <div className='col-span-2 text-center'>
+        Next work in Collection <IoArrowForward className="inline"/>
         </div>
     </div>
     <hr className='separator'/>

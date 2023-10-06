@@ -35,11 +35,19 @@
   border-radius:8px;
   line-height:inherit;
   font-weight: 600;
+  cursor: pointer;
 }
 .sort-inactive{
   color: var(--inactive-text);
   font-weight: 600;
+  cursor: pointer;
   padding: 8px 16px;
+  background-color: #2B2C28;
+  border-radius: 8px;
+}
+.sort-inactive:hover{
+  color: white !important;
+  transition: ease-in-out ease-out .6s;
 }
 p{
   margin-bottom: 16px;
