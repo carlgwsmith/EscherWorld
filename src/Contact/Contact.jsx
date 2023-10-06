@@ -3,7 +3,7 @@ export default function Contact(){
     console.log(import.meta.env.VITE_REACT_APP_WEB3FORMS_KEY.value)
 
     const inputStyle='p-2 border-solid border-2 border-slate-900 rounded-md mb-5 focus:bg-slate-100'
-    const submitStyle='bg-sunglow h-10 px-4 text-jet font-semibold float-right rounded-md hover:opacity-80'
+    const submitStyle='bg-purpleCTA h-10 px-4 text-snow font-semibold float-right rounded-md hover:opacity-80'
     const labelStyle='block text-snow mb-1'
     return(
     <div>
