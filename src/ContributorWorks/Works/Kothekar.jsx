@@ -17,13 +17,13 @@ export default function Kothekar (props){
     </div>
     <div className="grid grid-cols-3 gap-4 my-[24px]">
         <div className='col-span-3'>
-            <h2 className="text-4xl text-center font-bold">Angels And Devils</h2>
+            <h2 className="text-4xl text-center font-bold">Kothkar's Paper Works</h2>
         </div>
     </div>
     <hr className='separator'/>
     <div className="grid grid-cols-6 gap-4  my-[24px]">
         <div className='col-span-4'>
-            <div className="artPod items-center justify-center flex">
+            <div className="artPod items-center justify-center flex" style={{padding: '0px'}}>
             <img src='/Images/kothekar.jpg' width="100%" height="100%"/>
             </div>
         </div>

@@ -23,7 +23,7 @@ export default function Reptiles (props){
     <hr className='separator'/>
     <div className="grid grid-cols-6 gap-4  my-[24px]">
         <div className='col-span-4'>
-            <div className="artPod items-center justify-center flex">
+            <div className="artPod items-center justify-center flex" style={{padding: '0px'}}>
             <iframe title="Lizards Sphere 🦎 (M.C.Escher)" frameborder="0" allowfullscreen width="100%" height="100%" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1571caacecc5466e8fea4bf8abfbc8d9/embed?autospin=1&autostart=1&preload=1"> </iframe>
             </div>
         </div>

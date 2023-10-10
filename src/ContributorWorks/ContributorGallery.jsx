@@ -46,7 +46,7 @@ export default function ContributorGallery (props){
     <div className="grid grid-cols-3 gap-4 my-10 mx-[100px]">
         <ContributorCard title="Reptiles" img="/Images/marcoLizards.png" id="1"/>
         <ContributorCard title="Angels and Devils" img="/Images/angelsAndDevils.png" id="2"/>
-        <ContributorCard title="Escher Gold" img="/Images/escherGold.png" id="3"/>
+        <ContributorCard title="Escher Gold" img="/Images/kothekarThumb.png" id="3"/>
     </div>
     <ContributeCTA main="Get your art work featured"
         mainSub="Win $10,000 in scholarship cash!"
