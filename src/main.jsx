@@ -8,6 +8,9 @@ import Gallery from './Gallery/Gallery';
 import Contact from './Contact/Contact';
 import ContributorWork from './ContributorWorks/ContributorWork';
 import EscherWork from './Gallery/EsherWork';
+import Reptiles from './ContributorWorks/Works/Reptiles'
+import AngelandDevils from './ContributorWorks/Works/AngelsAndDevils'
+import Kothekar from './ContributorWorks/Works/Kothekar'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -36,6 +39,18 @@ element:<Home/>},
       {
         path: "/contributor-works/artwork/:id",
         element: <ContributorWork/>,
+      },
+      {
+        path: "/contributor-works/reptiles",
+        element: <Reptiles/>,
+      },
+      {
+        path: "/contributor-works/angelsanddevils",
+        element: <AngelandDevils/>,
+      },
+      {
+        path: "/contributor-works/kothekar",
+        element: <Kothekar/>,
       },
       {
         path: "/gallery",

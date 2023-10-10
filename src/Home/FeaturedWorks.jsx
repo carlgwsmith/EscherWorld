@@ -17,28 +17,28 @@ export default function FeaturedWorks(props){
                     <div className={props.cardMargin}>
                     <WorkCard
                         featuredImg='/Images/marcoLizards.png'
-                        projName="Art Title"
-                        projDesc="some stuff about the art"
+                        projName="Reptiles"
+                        projDesc="3D Digital Artworks based on Escher's Classic Reptiles"
                         buttonCTA="View Artwork"
-                        buttonLink={`/contributor-works/artwork/1`}
+                        buttonLink={`/contributor-works/reptiles`}
                     />
                     </div>
                     <div>
                     <WorkCard
                         featuredImg="/Images/angelsAndDevils.png"
-                        projName="Art Title"
-                        projDesc="some stuff about the art"
+                        projName="Angels And Devils"
+                        projDesc="3D Digital Artworks based on Escher's Classic Circle Limit IV"
                         buttonCTA="View Artwork"
-                        buttonLink={`/contributor-works/artwork/1`}
+                        buttonLink={`/contributor-works/angelsanddevils`}
                     />
                     </div>
                     <div className={props.cardMargin}>
                     <WorkCard
-                        featuredImg="/Images/escherGold.png"
-                        projName="Art Title"
-                        projDesc="some stuff about the art"
+                        featuredImg="/Images/kothekarThumb.png"
+                        projName="Kothkar Paper"
+                        projDesc="Intricate works cut from a single piece of white paper"
                         buttonCTA="View Artwork"
-                        buttonLink={`/contributor-works/artwork/1`}
+                        buttonLink={`/contributor-works/kothekar`}
                     />
                     </div>
                 </div>

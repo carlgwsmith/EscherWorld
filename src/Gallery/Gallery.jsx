@@ -58,7 +58,7 @@ export default function Gallery(props){
             <p className='text-center text-md'>A look into what our M.C. Escher Collection</p>
         </div>
     </div>
-    <div className="grid sm:grid-cols-1 md:grid-cols-8 gap-10 my-4 text-center xs:mx-[20px] sm:mx-[20px] md:mx-[60px] mb-[40px]">
+    <div className="grid sm:grid-cols-1 md:grid-cols-8 gap-4 my-4 text-center xs:mx-[20px] sm:mx-[20px] md:mx-[60px] mb-[40px]">
         <div className="xs:col-span-1 md:col-span-8">
             <p className="text-snow font-bold uppercase">Select a Medium</p>
         </div>
