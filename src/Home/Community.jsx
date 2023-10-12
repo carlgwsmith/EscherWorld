@@ -3,13 +3,13 @@ import { Link } from "react-router-dom"
 
 export default function Community(props){
     return(<div className="m-auto grid grid-cols-6 px-[80px] pt-24 pb-24 bg-night">
-    <div className="col-span-4">
+    <div className="xs:col-span-6 sm:col-span-4">
         <div>
     <h2 className="font-bold text-3xl leading-normal text-snow tracking-in-expand">{props.main || <Skeleton/>}</h2>
     <h2 className="font-regular mt-5 mb-2 text-xl leading-normal text-snow tracking-in-expand">{props.subtitle || <Skeleton/>}</h2>
     </div>
     </div>
-    <div className="col-span-2 text-center m-auto">
+    <div className="xs:col-span-6 sm:col-span-2 text-center m-auto">
         <img src={props.featuredImg}/>
     </div>
     <div>

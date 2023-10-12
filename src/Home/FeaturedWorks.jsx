@@ -8,7 +8,7 @@ export default function FeaturedWorks(props){
     }
     return(
         
-        <div className="m-auto grid grid-cols-3 px-[80px] pt-16 pb-24 bg-gradient-to-b from-black to-bg-night">
+        <div className="m-auto grid grid-cols-3 sm:px-[20px] md:px-[80px] pt-16 pb-24 bg-gradient-to-b from-black to-bg-night">
             <div className="m-auto col-start-2">
             <h2 className="text-center font-bold text-3xl text-tiffany-green tracking-in-expand">{props.title || <Skeleton/>}</h2>
             </div>

@@ -43,7 +43,7 @@ export default function ContributorGallery (props){
         <div className="xs:col-span-1 md:col-span-2 sort-inactive">Woodblocks</div>
         <div className="xs:col-span-1 md:col-span-2 sort-inactive">Digital</div>
     </div>
-    <div className="grid grid-cols-3 gap-4 my-10 mx-[100px]">
+    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 my-10 mx-[100px]">
         <ContributorCard title="Reptiles" img="/Images/marcoLizards.png" id="1"/>
         <ContributorCard title="Angels and Devils" img="/Images/angelsAndDevils.png" id="2"/>
         <ContributorCard title="Escher Gold" img="/Images/kothekarThumb.png" id="3"/>

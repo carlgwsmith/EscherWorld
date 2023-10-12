@@ -22,12 +22,12 @@ export default function ContributorWork (props){
     </div>
     <hr className='separator'/>
     <div className="grid grid-cols-6 gap-4  my-[24px]">
-        <div className='col-span-4'>
+        <div className='xs:col-span-6 sm:col-span-4'>
             <div className="artPod items-center justify-center flex">
                 <PiCameraBold size="30px"/>
             </div>
         </div>
-        <div className="col-span-2">
+        <div className="xs:col-span-6 sm:col-span-2">
             <div className="artPod">
                 <h3 className='text-lg font-bold mb-[24px]'>Reference Artwork</h3>
                 <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
