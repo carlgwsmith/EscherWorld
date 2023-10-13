@@ -33,7 +33,7 @@ export default function EscherWork(props){
     <div className='mx-[40px]'>
     <div className="grid xs:grid-cols-1 md:grid-cols-8 gap-4 my-[36px]">
         <div className="xs:grid-cols-1 md:col-span-2">
-            <Link to="/gallery">
+            <Link to="/gallery" >
                 <div className="button p-4 text-sm text-snow font-semibold rounded-lg bg-purpleCTA text-center hover:bg-opacity-80 hover:shadow-sm duration-300"> <IoReturnUpBackOutline size="32px" className="inline pr-[4px]"/> Back to Escher Gallery</div>
             </Link>
         </div>
@@ -43,12 +43,12 @@ export default function EscherWork(props){
             <h2 className="xs:text-[24px] md:text-4xl text-center font-bold">{workName || 'Artwork Title / Heading' }</h2>
         </div>
         <div className='col-span-4 text-left'>
-           <Link to={'/gallery/artwork/' + prevWork}> <IoArrowBack className="inline"/> Previous Work</Link>
+           <a href={'/gallery/artwork/' + prevWork} > <IoArrowBack className="inline"/> Previous Work</a>
         </div>
         <div className='col-span-4 text-right'>
-        <Link to={'/gallery/artwork/' + nextWork}>
+        <a href={'/gallery/artwork/' + nextWork}>
         Next Work <IoArrowForward className="inline"/>
-        </Link>
+        </a>
         </div>
     </div>
     <hr className='separator'/>
