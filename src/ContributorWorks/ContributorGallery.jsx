@@ -1,6 +1,7 @@
 import ContributeCTA from '../Home/ContributeCTA'
 import ContributorCard from './ContributorCard'
 import Community from '../Home/Community'
+import FeaturedWorks from '../Home/FeaturedWorks';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -43,11 +44,12 @@ export default function ContributorGallery (props){
         <div className="xs:col-span-1 md:col-span-2 sort-inactive">Woodblocks</div>
         <div className="xs:col-span-1 md:col-span-2 sort-inactive">Digital</div>
     </div>
-    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 my-10 mx-[100px]">
+    <FeaturedWorks/>
+    {/* <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 my-10 mx-[100px]">
         <ContributorCard title="Reptiles" img="/Images/marcoLizards.png" id="1"/>
         <ContributorCard title="Angels and Devils" img="/Images/angelsAndDevils.png" id="2"/>
         <ContributorCard title="Escher Gold" img="/Images/kothekarThumb.png" id="3"/>
-    </div>
+    </div> */}
     <ContributeCTA main="Get your art work featured"
         mainSub="Win $10,000 in scholarship cash!"
          subtitle="Share your work with a wider audience, win grant money for your hard work, connect with other Escher fans and much more! "

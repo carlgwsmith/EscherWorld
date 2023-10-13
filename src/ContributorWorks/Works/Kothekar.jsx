@@ -32,11 +32,11 @@ export default function Kothekar (props){
                 <h3 className='text-lg font-bold mb-[24px]'>Reference Artwork</h3>
                 <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
                 <div>
-                    <img src="/Images/EscherThumbnail/B388%20Relativity%20in%20Frame.jpg"/>
+                    <img src="/Images/EscherThumbnail/B390%20Spirals%20in%20Frame.jpg"/>
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div>
-                    <img src="/Images/EscherThumbnail/B388%20Relativity%20close.jpg"/>
+                    <img src="/Images/EscherThumbnail/B390%20Spirals%20close.jpg"/>
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
             </Carousel>

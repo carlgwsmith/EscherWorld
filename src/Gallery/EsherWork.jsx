@@ -12,15 +12,20 @@ import pathArray from './Paths';
 export default function EscherWork(props){
     const [workName, setWorkName] = useState('');
     const [workImg, setWorkImg] = useState('');
+    const [prevWork, setPrevWork] = useState('')
+    const [nextWork, setNextWork] = useState('')
     const worksArr = pathArray
     let {id} = useParams()
 
+ 
       
     useEffect(() => {
         const idParam = {id}
         const work = worksArr[idParam.id - 1]
         setWorkName(work.name)
         setWorkImg(work.url)
+        setNextWork(Number(idParam.id) + 1)
+        setPrevWork(Number(idParam.id) - 1)
     console.log('call once')
     }, []);
 
@@ -38,10 +43,12 @@ export default function EscherWork(props){
             <h2 className="xs:text-[24px] md:text-4xl text-center font-bold">{workName || 'Artwork Title / Heading' }</h2>
         </div>
         <div className='col-span-4 text-left'>
-            <IoArrowBack className="inline"/> Previous Work
+           <Link to={'/gallery/artwork/' + prevWork}> <IoArrowBack className="inline"/> Previous Work</Link>
         </div>
         <div className='col-span-4 text-right'>
+        <Link to={'/gallery/artwork/' + nextWork}>
         Next Work <IoArrowForward className="inline"/>
+        </Link>
         </div>
     </div>
     <hr className='separator'/>

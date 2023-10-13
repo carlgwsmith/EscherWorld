@@ -8,12 +8,19 @@ import {useState, useEffect} from 'react'
 export default function GalleryCard({currentItems}){
     const worksPaths = pathArray
     const [loading, setLoading] = useState(true);
+    const [img, setImg ] = useState('');
 
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
         }, 2000);
     }, []);
+
+    // const imgStyle = {
+    //     backgroundColor: item.url,
+    //     backgroundSize: 'cover',
+    //     height: '300px'
+    //   };
 
     return(<>
     {/* { loading ? 
@@ -26,8 +33,8 @@ export default function GalleryCard({currentItems}){
         <div key={index} className="grid grid-cols-12 contributorPod pb-4 bg-jet">
             <div className="col-span-12">
             <Link to={'/gallery/artwork/' + [item.id]}>
-            <div className="items-center justify-center flex">
-                    <img src={item.thumb} style={{width: '100%'}}/>
+            <div className='items-center justify-center flex min-h-[200px]'>
+               <img src={item.thumb} style={{height:"200px"}}/>     
                 </div>
                 </Link>
             </div>
