@@ -42,14 +42,14 @@ export default function EscherWork(props){
     <div className='col-span-8'>
             <h2 className="xs:text-[24px] md:text-4xl text-center font-bold">{workName || 'Artwork Title / Heading' }</h2>
         </div>
-        {/* <div className='col-span-4 text-left'>
-           <Link to={'/gallery/artwork/' + prevWork} > <IoArrowBack className="inline"/> Previous Work</Link>
+        <div className='col-span-4 text-left'>
+           <a href={'/gallery/artwork/' + prevWork} > <IoArrowBack className="inline"/> Previous Work</a>
         </div>
         <div className='col-span-4 text-right'>
-        <Link to={'/gallery/artwork/' + nextWork}>
+        <a href={'/gallery/artwork/' + nextWork}>
         Next Work <IoArrowForward className="inline"/>
-        </Link>
-        </div> */}
+        </a>
+        </div>
     </div>
     <hr className='separator'/>
     <div className="grid xs:grid-cols-1 md:grid-cols-6 gap-4  my-[24px]">
