@@ -22,12 +22,12 @@ export default function Kothekar (props){
     </div>
     <hr className='separator'/>
     <div className="grid grid-cols-6 gap-4  my-[24px]">
-        <div className='col-span-4'>
+        <div className='xs:col-span-6 md:col-span-4'>
             <div className="artPod items-center justify-center flex" style={{padding: '0px'}}>
             <img src='/Images/kothekar.jpg' width="100%" height="100%"/>
             </div>
         </div>
-        <div className="col-span-2">
+        <div className="xs:col-span-6 md:col-span-2">
             <div className="artPod">
                 <h3 className='text-lg font-bold mb-[24px]'>Reference Artwork</h3>
                 <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
