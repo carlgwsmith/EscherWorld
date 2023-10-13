@@ -61,7 +61,7 @@ export default function EscherWork(props){
         <div className="xs:col-span-1 md:col-span-2">
             <div className="artPod">
             <h3 className='text-lg font-bold mb-[24px]'>About This Artwork</h3>
-            <p>Lorem ipsum dolor sit amet consectetur. Ut sagittis et vulputate et elementum.Lorem ipsum dolor sit amet consectetur. Ut sagittis et vutate et elementum. Lorem ipsum dolor sit amet nsectetur. Ut sagittis et vulputate et eletum.Lorem ipsum dolor sit amet consectetur. Ut sagittis et vulputate et elentum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur. Ut sagittis et vulputate et elementum.Lorem ipsum dolor sit amet consectetur. Ut sagittis et vutate et elementum. Lorem ipsum dolor sit amet nsectetur. Ut sagittis et vulputate et eletum.Lorem ipsum dolor sit amet consecteur. Ut sagittis et vulputate et elentum.</p>
             <p>Ut sagis et vulputate et elementum.Lorem psum dolor sit amet consectetur. Ut sagittis et vulputate et el. Lorem ipsum dolor sit amet consectetur. Ut sgittis et vulputate et elementum.Lorem ipsum dolor sit amet consectetur.</p>
             <p>Ut sagittis et vutate et elementum. Lorem ipsum dolor sit amet consectetur. </p>
             </div>
