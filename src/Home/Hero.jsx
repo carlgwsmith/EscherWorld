@@ -5,15 +5,16 @@ import { useEffect, useRef } from 'react'
 
 export default function Hero (){
     const canvas  = useRef()
+    
     useEffect(() => {
         console.log(canvas)
     }, []);
     return(<>
         <Canvas
         ref={canvas}
-        shadows
+        // shadows
         camera={ {
-            position: [ 3, 3, 3 ]
+            position: [ -0.018, 0.238, 2.254]
         } }
     >
         <Experience />

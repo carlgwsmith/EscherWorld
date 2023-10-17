@@ -73,6 +73,7 @@ canvas{
   left:0;
   width:100%;
   color:white;
+  -webkit-text-stroke: 1px rgb(39, 39, 39);
   font-family: Inter, sans-serif;
   font-weight: 600;
   font-size: 6vh;
@@ -85,9 +86,10 @@ canvas{
   top:45%;
   left:0;
   width:100%;
+  -webkit-text-stroke: 1px rgb(39, 39, 39);
   font-family: Inter, sans-serif;
   font-weight: 600;
-  font-size: 4vh;
+  font-size: 5vh;
   padding: 5px;
   text-align: center;
 }
