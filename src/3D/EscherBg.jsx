@@ -12,8 +12,7 @@ export default function EscherBg (){
 //   const noiseTexture = useTexture("noise2.png");
   useFrame((state) => {
     let time = state.clock.getElapsedTime();
-    console.log(state)
-
+    
     // start from 20 to skip first 20 seconds ( optional )
     meshRef.current.material.uniforms.iTime.value = time + 20;
   });

@@ -12,6 +12,8 @@ import pathArray from './Paths';
 export default function EscherWork(props){
     const [workName, setWorkName] = useState('');
     const [workImg, setWorkImg] = useState('');
+    const [workClose, setWorkClose] = useState('');
+    const [workInFrame, setInFrame] = useState('');
     const [prevWork, setPrevWork] = useState('')
     const [nextWork, setNextWork] = useState('')
     const worksArr = pathArray
@@ -26,7 +28,14 @@ export default function EscherWork(props){
         setWorkImg(work.url)
         setNextWork(Number(idParam.id) + 1)
         setPrevWork(Number(idParam.id) - 1)
-    console.log('call once')
+        if('inframe' in work){
+            setInFrame(work.inframe)
+        }
+        if('close' in work){
+            setWorkClose(work.close)
+        }
+        // console.log(workInFrame, workClose)
+    // console.log('call once')
     }, []);
 
     return(<>
@@ -56,6 +65,15 @@ export default function EscherWork(props){
         <div className='xs:col-span-1 md:col-span-4'>
             <div className="artPod items-center justify-center flex">
                 <img src={workImg}/>
+                <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
+                    {workClose.length > 0 && <div>
+                        <img src={workClose}/>
+                        </div> }
+                {workInFrame.length > 0 && 
+                <div>
+                    <img src={workInFrame}/>
+                </div>}
+            </Carousel>
             </div>
         </div>
         <div className="xs:col-span-1 md:col-span-2">

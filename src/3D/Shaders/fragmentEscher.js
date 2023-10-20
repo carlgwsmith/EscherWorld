@@ -205,7 +205,7 @@ void main()
     vec3 view_dir = normalize( look_at - eye );
     vec3 right = cross( vec3( 0.0, 1.0, 0.0 ), view_dir );
     vec3 up = cross( view_dir, right );
-    float focal_dist = 3.7;
+    float focal_dist = 3.8;
     vec3 ray_dir = normalize( focal_dist*view_dir + uv.x*right + uv.y*up );
     
     // background color
