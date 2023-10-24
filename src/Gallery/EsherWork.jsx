@@ -60,8 +60,7 @@ export default function EscherWork(){
     <div className="grid xs:grid-cols-1 md:grid-cols-6 gap-4  my-[24px]">
         <div className='xs:col-span-1 md:col-span-4'>
             <div className="artPod items-center justify-center flex">
-                <img src={workImg}/>
-                <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
+                <Carousel autoPlay={true} showArrows={true} showThumbs={true} infiniteLoop={true}>
                     {carouselImages.map(url =>(
                         <div key={url}>
                             <img src={url}/>
