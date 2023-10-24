@@ -20,11 +20,23 @@ export default function Gallery(props){
                 name: '',
                 url:'',
                 thumb:'',
-                id: 0
+                id: 0,
+                carousel: [],
+                close:'',
+                inframe:''
             }
             imgObj.name = worksPaths[i].name
             imgObj.url = worksPaths[i].url
             imgObj.thumb = '/Images/EsherThumbnail/' + worksPaths[i].url.slice(20, -4) + '.jpg'
+            if(worksPaths[i].close){
+                imgObj.carousel.push(worksPaths[i].close)
+                imgObj.inframe = worksPaths[i].close
+            }
+            if(worksPaths[i].inframe){
+                imgObj.carousel.push(worksPaths[i].inframe)
+                imgObj.close = worksPaths[i].inframe
+            }
+            
             imgObj.id = i + 1
 
             newArray.push(imgObj)

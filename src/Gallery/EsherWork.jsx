@@ -12,6 +12,7 @@ import pathArray from './Paths';
 export default function EscherWork(props){
     const [workName, setWorkName] = useState('');
     const [workImg, setWorkImg] = useState('');
+    const [images, setImages] = useState([])
     const [workClose, setWorkClose] = useState('');
     const [workInFrame, setInFrame] = useState('');
     const [prevWork, setPrevWork] = useState('')
@@ -28,14 +29,19 @@ export default function EscherWork(props){
         setWorkImg(work.url)
         setNextWork(Number(idParam.id) + 1)
         setPrevWork(Number(idParam.id) - 1)
+        const nextList = [];
         if('inframe' in work){
             setInFrame(work.inframe)
+            console.log(work.inframe)
+            nextList.push(work.iframe)
         }
         if('close' in work){
             setWorkClose(work.close)
+            console.log(work.close)
+            nextList.push(work.close)
         }
-        // console.log(workInFrame, workClose)
-    // console.log('call once')
+
+        console.log(nextList)
     }, []);
 
     return(<>
