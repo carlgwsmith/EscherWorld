@@ -2,7 +2,7 @@ const pathArray = [
   {
       name: "St. Francis close",
       url: "/Images/EscherWorks/B921 St. Francis close.JPG",
-      thumb: "/Images/EsherThumbnail/B921 St. Francis close.jpg",
+      thumb: "/Images/EscherThumbnail/B921 St. Francis close.jpg",
       id: 1,
       carousel: [
           "/Images/EscherWorks/B921 St. Francis close.JPG"
@@ -13,7 +13,7 @@ const pathArray = [
   {
       name: "Tower of Babel",
       url: "/Images/EscherWorks/B118 Tower of Babel close.JPG",
-      thumb: "/Images/EsherThumbnail/B118 Tower of Babel close.jpg",
+      thumb: "/Images/EscherThumbnail/B118 Tower of Babel close.jpg",
       id: 2,
       carousel: [
           "/Images/EscherWorks/B118 Tower of Babel close.JPG",
@@ -25,7 +25,7 @@ const pathArray = [
   {
       name: "Self Portrait in Frame",
       url: "/Images/EscherWorks/B128 Self Portrait in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B128 Self Portrait in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B128 Self Portrait in Frame.jpg",
       id: 3,
       carousel: [
           "/Images/EscherWorks/B128 Self Portrait in Frame.JPG"
@@ -36,7 +36,7 @@ const pathArray = [
   {
       name: "Still Life with Mirror",
       url: "/Images/EscherWorks/B248 Still Life with Mirror close.JPG",
-      thumb: "/Images/EsherThumbnail/B248 Still Life with Mirror close.jpg",
+      thumb: "/Images/EscherThumbnail/B248 Still Life with Mirror close.jpg",
       id: 4,
       carousel: [
           "/Images/EscherWorks/B248 Still Life with Mirror close.JPG",
@@ -48,7 +48,7 @@ const pathArray = [
   {
       name: "Hell copy of Bosch",
       url: "/Images/EscherWorks/B278 Hell copy of Bosch close.JPG",
-      thumb: "/Images/EsherThumbnail/B278 Hell copy of Bosch close.jpg",
+      thumb: "/Images/EscherThumbnail/B278 Hell copy of Bosch close.jpg",
       id: 5,
       carousel: [
           "/Images/EscherWorks/B278 Hell copy of Bosch close.JPG",
@@ -60,7 +60,7 @@ const pathArray = [
   {
       name: "Development",
       url: "/Images/EscherWorks/B300 Development close.JPG",
-      thumb: "/Images/EsherThumbnail/B300 Development close.jpg",
+      thumb: "/Images/EscherThumbnail/B300 Development close.jpg",
       id: 6,
       carousel: [
           "/Images/EscherWorks/B300 Development close.JPG",
@@ -72,7 +72,7 @@ const pathArray = [
   {
       name: "Day and Night in Frame",
       url: "/Images/EscherWorks/B303 Day and Night in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B303 Day and Night in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B303 Day and Night in Frame.jpg",
       id: 7,
       carousel: [
           "/Images/EscherWorks/B303 Day and Night in Frame.JPG"
@@ -83,7 +83,7 @@ const pathArray = [
   {
       name: "Cycle",
       url: "/Images/EscherWorks/B305 Cycle close.JPG",
-      thumb: "/Images/EsherThumbnail/B305 Cycle close.jpg",
+      thumb: "/Images/EscherThumbnail/B305 Cycle close.jpg",
       id: 8,
       carousel: [
           "/Images/EscherWorks/B305 Cycle close.JPG",
@@ -95,7 +95,7 @@ const pathArray = [
   {
       name: "Sky and Water 1",
       url: "/Images/EscherWorks/B306 Sky and Water 1 close.JPG",
-      thumb: "/Images/EsherThumbnail/B306 Sky and Water 1 close.jpg",
+      thumb: "/Images/EscherThumbnail/B306 Sky and Water 1 close.jpg",
       id: 9,
       carousel: [
           "/Images/EscherWorks/B306 Sky and Water 1 close.JPG",
@@ -107,7 +107,7 @@ const pathArray = [
   {
       name: "Sky and Water 2",
       url: "/Images/EscherWorks/B308 Sky and Water 2 close.JPG",
-      thumb: "/Images/EsherThumbnail/B308 Sky and Water 2 close.jpg",
+      thumb: "/Images/EscherThumbnail/B308 Sky and Water 2 close.jpg",
       id: 10,
       carousel: [
           "/Images/EscherWorks/B308 Sky and Water 2 close.JPG",
@@ -119,7 +119,7 @@ const pathArray = [
   {
       name: "Gravesande Bookplate close",
       url: "/Images/EscherWorks/B322 Gravesande Bookplate close.JPG",
-      thumb: "/Images/EsherThumbnail/B322 Gravesande Bookplate close.jpg",
+      thumb: "/Images/EscherThumbnail/B322 Gravesande Bookplate close.jpg",
       id: 11,
       carousel: [
           "/Images/EscherWorks/B322 Gravesande Bookplate close.JPG"
@@ -130,7 +130,7 @@ const pathArray = [
   {
       name: "Verbum (Earth, Sky and Water)",
       url: "/Images/EscherWorks/B326 Verbum (Earth, Sky and Water) in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B326 Verbum (Earth, Sky and Water) in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B326 Verbum (Earth, Sky and Water) in Frame.jpg",
       id: 12,
       carousel: [
           "/Images/EscherWorks/B326 Verbum close.JPG",
@@ -142,7 +142,7 @@ const pathArray = [
   {
       name: "Reptiles",
       url: "/Images/EscherWorks/B327 Reptiles close.JPG",
-      thumb: "/Images/EsherThumbnail/B327 Reptiles close.jpg",
+      thumb: "/Images/EscherThumbnail/B327 Reptiles close.jpg",
       id: 13,
       carousel: [
           "/Images/EscherWorks/B327 Reptiles close.JPG",
@@ -154,7 +154,7 @@ const pathArray = [
   {
       name: "Encounter",
       url: "/Images/EscherWorks/B331 Encounter close.JPG",
-      thumb: "/Images/EsherThumbnail/B331 Encounter close.jpg",
+      thumb: "/Images/EscherThumbnail/B331 Encounter close.jpg",
       id: 14,
       carousel: [
           "/Images/EscherWorks/B331 Encounter close.JPG",
@@ -166,7 +166,7 @@ const pathArray = [
   {
       name: "Three Spheres 1",
       url: "/Images/EscherWorks/B336 Three Spheres 1 close.JPG",
-      thumb: "/Images/EsherThumbnail/B336 Three Spheres 1 close.jpg",
+      thumb: "/Images/EscherThumbnail/B336 Three Spheres 1 close.jpg",
       id: 15,
       carousel: [
           "/Images/EscherWorks/B336 Three Spheres 1 close.JPG",
@@ -178,7 +178,7 @@ const pathArray = [
   {
       name: "Magic Mirror",
       url: "/Images/EscherWorks/B338 Magic Mirror close.JPG",
-      thumb: "/Images/EsherThumbnail/B338 Magic Mirror close.jpg",
+      thumb: "/Images/EscherThumbnail/B338 Magic Mirror close.jpg",
       id: 16,
       carousel: [
           "/Images/EscherWorks/B338 Magic Mirror close.JPG",
@@ -190,7 +190,7 @@ const pathArray = [
   {
       name: "Three Spheres 2",
       url: "/Images/EscherWorks/B339 Three Spheres 2 close.JPG",
-      thumb: "/Images/EsherThumbnail/B339 Three Spheres 2 close.jpg",
+      thumb: "/Images/EscherThumbnail/B339 Three Spheres 2 close.jpg",
       id: 17,
       carousel: [
           "/Images/EscherWorks/B339 Three Spheres 2 close.JPG",
@@ -202,7 +202,7 @@ const pathArray = [
   {
       name: "Horseman",
       url: "/Images/EscherWorks/B342 Horseman close.JPG",
-      thumb: "/Images/EsherThumbnail/B342 Horseman close.jpg",
+      thumb: "/Images/EscherThumbnail/B342 Horseman close.jpg",
       id: 18,
       carousel: [
           "/Images/EscherWorks/B342 Horseman close.JPG",
@@ -214,7 +214,7 @@ const pathArray = [
   {
       name: "Eye in Frame",
       url: "/Images/EscherWorks/B344 Eye in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B344 Eye in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B344 Eye in Frame.jpg",
       id: 19,
       carousel: [
           "/Images/EscherWorks/B344 Eye in Frame.JPG"
@@ -225,7 +225,7 @@ const pathArray = [
   {
       name: "New Year 1947 greeting card close",
       url: "/Images/EscherWorks/B345 New Year 1947 greeting card close.JPG",
-      thumb: "/Images/EsherThumbnail/B345 New Year 1947 greeting card close.jpg",
+      thumb: "/Images/EscherThumbnail/B345 New Year 1947 greeting card close.jpg",
       id: 20,
       carousel: [
           "/Images/EscherWorks/B345 New Year 1947 greeting card close.JPG"
@@ -236,7 +236,7 @@ const pathArray = [
   {
       name: "Other World",
       url: "/Images/EscherWorks/B348 Other World close.JPG",
-      thumb: "/Images/EsherThumbnail/B348 Other World close.jpg",
+      thumb: "/Images/EscherThumbnail/B348 Other World close.jpg",
       id: 21,
       carousel: [
           "/Images/EscherWorks/B348 Other World close.JPG",
@@ -248,7 +248,7 @@ const pathArray = [
   {
       name: "Other World in Frame",
       url: "/Images/EscherWorks/B348 Other World in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B348 Other World in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B348 Other World in Frame.jpg",
       id: 22,
       carousel: [
           "/Images/EscherWorks/B348 Other World in Frame.JPG"
@@ -259,7 +259,7 @@ const pathArray = [
   {
       name: "Up and Down",
       url: "/Images/EscherWorks/B352 Up and Down close.JPG",
-      thumb: "/Images/EsherThumbnail/B352 Up and Down close.jpg",
+      thumb: "/Images/EscherThumbnail/B352 Up and Down close.jpg",
       id: 23,
       carousel: [
           "/Images/EscherWorks/B352 Up and Down close.JPG",
@@ -271,7 +271,7 @@ const pathArray = [
   {
       name: "Drawing Hands",
       url: "/Images/EscherWorks/B355 Drawing Hands close.JPG",
-      thumb: "/Images/EsherThumbnail/B355 Drawing Hands close.jpg",
+      thumb: "/Images/EscherThumbnail/B355 Drawing Hands close.jpg",
       id: 24,
       carousel: [
           "/Images/EscherWorks/B355 Drawing Hands close.JPG",
@@ -283,7 +283,7 @@ const pathArray = [
   {
       name: "Sun and Moon in Frame",
       url: "/Images/EscherWorks/B357 Sun and Moon in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B357 Sun and Moon in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B357 Sun and Moon in Frame.jpg",
       id: 25,
       carousel: [
           "/Images/EscherWorks/B357 Sun and Moon in Frame.JPG"
@@ -294,7 +294,7 @@ const pathArray = [
   {
       name: "Birds invitation",
       url: "/Images/EscherWorks/B361 Birds invitation close.JPG",
-      thumb: "/Images/EsherThumbnail/B361 Birds invitation close.jpg",
+      thumb: "/Images/EscherThumbnail/B361 Birds invitation close.jpg",
       id: 26,
       carousel: [
           "/Images/EscherWorks/B361 Birds invitation close.JPG",
@@ -306,7 +306,7 @@ const pathArray = [
   {
       name: "Horses and Bird invitation close",
       url: "/Images/EscherWorks/B363 Horses and Bird invitation close.JPG",
-      thumb: "/Images/EsherThumbnail/B363 Horses and Bird invitation close.jpg",
+      thumb: "/Images/EscherThumbnail/B363 Horses and Bird invitation close.jpg",
       id: 27,
       carousel: [
           "/Images/EscherWorks/B363 Horses and Bird invitation close.JPG"
@@ -317,7 +317,7 @@ const pathArray = [
   {
       name: "Double Planetoid close",
       url: "/Images/EscherWorks/B365 Double Planetoid close.JPG",
-      thumb: "/Images/EsherThumbnail/B365 Double Planetoid close.jpg",
+      thumb: "/Images/EscherThumbnail/B365 Double Planetoid close.jpg",
       id: 28,
       carousel: [
           "/Images/EscherWorks/B365 Double Planetoid close.JPG",
@@ -329,7 +329,7 @@ const pathArray = [
   {
       name: "Order and Chaos",
       url: "/Images/EscherWorks/B366 Order and Chaos close.JPG",
-      thumb: "/Images/EsherThumbnail/B366 Order and Chaos close.jpg",
+      thumb: "/Images/EscherThumbnail/B366 Order and Chaos close.jpg",
       id: 29,
       carousel: [
           "/Images/EscherWorks/B366 Order and Chaos close.JPG",
@@ -341,7 +341,7 @@ const pathArray = [
   {
       name: "Predestination",
       url: "/Images/EscherWorks/B372 Predestination close.JPG",
-      thumb: "/Images/EsherThumbnail/B372 Predestination close.jpg",
+      thumb: "/Images/EscherThumbnail/B372 Predestination close.jpg",
       id: 30,
       carousel: [
           "/Images/EscherWorks/B372 Predestination close.JPG",
@@ -353,7 +353,7 @@ const pathArray = [
   {
       name: "Plane Filling 1 close",
       url: "/Images/EscherWorks/B373 Plane Filling 1 close.JPG",
-      thumb: "/Images/EsherThumbnail/B373 Plane Filling 1 close.jpg",
+      thumb: "/Images/EscherThumbnail/B373 Plane Filling 1 close.jpg",
       id: 31,
       carousel: [
           "/Images/EscherWorks/B373 Plane Filling 1 close.JPG"
@@ -364,7 +364,7 @@ const pathArray = [
   {
       name: "Curl Up in Frame",
       url: "/Images/EscherWorks/B374 Curl Up in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B374 Curl Up in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B374 Curl Up in Frame.jpg",
       id: 32,
       carousel: [
           "/Images/EscherWorks/B374 Curl Up in Frame.JPG"
@@ -375,7 +375,7 @@ const pathArray = [
   {
       name: "Fish and Bird close",
       url: "/Images/EscherWorks/B376 Fish and Bird close.JPG",
-      thumb: "/Images/EsherThumbnail/B376 Fish and Bird close.jpg",
+      thumb: "/Images/EscherThumbnail/B376 Fish and Bird close.jpg",
       id: 33,
       carousel: [
           "/Images/EscherWorks/B376 Fish and Bird close.JPG"
@@ -386,7 +386,7 @@ const pathArray = [
   {
       name: "Puddle",
       url: "/Images/EscherWorks/B378 Puddle close.JPG",
-      thumb: "/Images/EsherThumbnail/B378 Puddle close.jpg",
+      thumb: "/Images/EscherThumbnail/B378 Puddle close.jpg",
       id: 34,
       carousel: [
           "/Images/EscherWorks/B378 Puddle close.JPG",
@@ -398,7 +398,7 @@ const pathArray = [
   {
       name: "Puddle w frame",
       url: "/Images/EscherWorks/B378 Puddle w frame.JPG",
-      thumb: "/Images/EsherThumbnail/B378 Puddle w frame.jpg",
+      thumb: "/Images/EscherThumbnail/B378 Puddle w frame.jpg",
       id: 35,
       carousel: [
           "/Images/EscherWorks/B378 Puddle w frame.JPG"
@@ -409,7 +409,7 @@ const pathArray = [
   {
       name: "Dragon",
       url: "/Images/EscherWorks/B379 Dragon close.JPG",
-      thumb: "/Images/EsherThumbnail/B379 Dragon close.jpg",
+      thumb: "/Images/EscherThumbnail/B379 Dragon close.jpg",
       id: 36,
       carousel: [
           "/Images/EscherWorks/B379 Dragon close.JPG",
@@ -421,7 +421,7 @@ const pathArray = [
   {
       name: "Strens Earth close",
       url: "/Images/EscherWorks/B382 Strens Earth close.JPG",
-      thumb: "/Images/EsherThumbnail/B382 Strens Earth close.jpg",
+      thumb: "/Images/EscherThumbnail/B382 Strens Earth close.jpg",
       id: 37,
       carousel: [
           "/Images/EscherWorks/B382 Strens Earth close.JPG"
@@ -432,7 +432,7 @@ const pathArray = [
   {
       name: "to B385 Strens Elements",
       url: "/Images/EscherWorks/B382 Strens Elements all close.JPG",
-      thumb: "/Images/EsherThumbnail/B382 Strens Elements all close.jpg",
+      thumb: "/Images/EscherThumbnail/B382 Strens Elements all close.jpg",
       id: 38,
       carousel: [
           "/Images/EscherWorks/B382 Strens Elements all close.JPG"
@@ -443,7 +443,7 @@ const pathArray = [
   {
       name: "Strens Air close",
       url: "/Images/EscherWorks/B383 Strens Air close.JPG",
-      thumb: "/Images/EsherThumbnail/B383 Strens Air close.jpg",
+      thumb: "/Images/EscherThumbnail/B383 Strens Air close.jpg",
       id: 39,
       carousel: [
           "/Images/EscherWorks/B383 Strens Air close.JPG"
@@ -454,7 +454,7 @@ const pathArray = [
   {
       name: "Strens Fire close",
       url: "/Images/EscherWorks/B384 Strens Fire close.JPG",
-      thumb: "/Images/EsherThumbnail/B384 Strens Fire close.jpg",
+      thumb: "/Images/EscherThumbnail/B384 Strens Fire close.jpg",
       id: 40,
       carousel: [
           "/Images/EscherWorks/B384 Strens Fire close.JPG"
@@ -465,7 +465,7 @@ const pathArray = [
   {
       name: "Strens Water close",
       url: "/Images/EscherWorks/B385 Strens Water close.JPG",
-      thumb: "/Images/EsherThumbnail/B385 Strens Water close.jpg",
+      thumb: "/Images/EscherThumbnail/B385 Strens Water close.jpg",
       id: 41,
       carousel: [
           "/Images/EscherWorks/B385 Strens Water close.JPG"
@@ -476,7 +476,7 @@ const pathArray = [
   {
       name: "Relativity",
       url: "/Images/EscherWorks/B388 Relativity in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B388 Relativity in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B388 Relativity in Frame.jpg",
       id: 42,
       carousel: [
           "/Images/EscherWorks/B388 Relativity close.JPG"
@@ -487,7 +487,7 @@ const pathArray = [
   {
       name: "Spirals",
       url: "/Images/EscherWorks/B390 Spirals close.JPG",
-      thumb: "/Images/EsherThumbnail/B390 Spirals close.jpg",
+      thumb: "/Images/EscherThumbnail/B390 Spirals close.jpg",
       id: 43,
       carousel: [
           "/Images/EscherWorks/B390 Spirals close.JPG",
@@ -499,7 +499,7 @@ const pathArray = [
   {
       name: "Tetrahedral Planetoid",
       url: "/Images/EscherWorks/B395 Tetrahedral Planetoid close.JPG",
-      thumb: "/Images/EsherThumbnail/B395 Tetrahedral Planetoid close.jpg",
+      thumb: "/Images/EscherThumbnail/B395 Tetrahedral Planetoid close.jpg",
       id: 44,
       carousel: [
           "/Images/EscherWorks/B395 Tetrahedral Planetoid close.JPG",
@@ -511,7 +511,7 @@ const pathArray = [
   {
       name: "Convex and Concave",
       url: "/Images/EscherWorks/B399 Convex and Concave close.JPG",
-      thumb: "/Images/EsherThumbnail/B399 Convex and Concave close.jpg",
+      thumb: "/Images/EscherThumbnail/B399 Convex and Concave close.jpg",
       id: 45,
       carousel: [
           "/Images/EscherWorks/B399 Convex and Concave close.JPG",
@@ -523,7 +523,7 @@ const pathArray = [
   {
       name: "Liberation",
       url: "/Images/EscherWorks/B400 Liberation close.JPG",
-      thumb: "/Images/EsherThumbnail/B400 Liberation close.jpg",
+      thumb: "/Images/EscherThumbnail/B400 Liberation close.jpg",
       id: 46,
       carousel: [
           "/Images/EscherWorks/B400 Liberation close.JPG",
@@ -535,7 +535,7 @@ const pathArray = [
   {
       name: "Order and Chaos 2",
       url: "/Images/EscherWorks/B402 order and Chaos 2 close.JPG",
-      thumb: "/Images/EsherThumbnail/B402 order and Chaos 2 close.jpg",
+      thumb: "/Images/EscherThumbnail/B402 order and Chaos 2 close.jpg",
       id: 47,
       carousel: [
           "/Images/EscherWorks/B402 order and Chaos 2 close.JPG",
@@ -547,7 +547,7 @@ const pathArray = [
   {
       name: "Depth",
       url: "/Images/EscherWorks/B403 Depth close.JPG",
-      thumb: "/Images/EsherThumbnail/B403 Depth close.jpg",
+      thumb: "/Images/EscherThumbnail/B403 Depth close.jpg",
       id: 48,
       carousel: [
           "/Images/EscherWorks/B403 Depth close.JPG",
@@ -559,7 +559,7 @@ const pathArray = [
   {
       name: "Three Worlds",
       url: "/Images/EscherWorks/B405 Three Worlds close.JPG",
-      thumb: "/Images/EsherThumbnail/B405 Three Worlds close.jpg",
+      thumb: "/Images/EscherThumbnail/B405 Three Worlds close.jpg",
       id: 49,
       carousel: [
           "/Images/EscherWorks/B405 Three Worlds close.JPG",
@@ -571,7 +571,7 @@ const pathArray = [
   {
       name: "Swans",
       url: "/Images/EscherWorks/B408 Swans close.JPG",
-      thumb: "/Images/EsherThumbnail/B408 Swans close.jpg",
+      thumb: "/Images/EscherThumbnail/B408 Swans close.jpg",
       id: 50,
       carousel: [
           "/Images/EscherWorks/B408 Swans close.JPG",
@@ -583,7 +583,7 @@ const pathArray = [
   {
       name: "Bond of Union in Frame",
       url: "/Images/EscherWorks/B409 Bond of Union in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B409 Bond of Union in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B409 Bond of Union in Frame.jpg",
       id: 51,
       carousel: [
           "/Images/EscherWorks/B409 Bond of Union in Frame.JPG"
@@ -594,7 +594,7 @@ const pathArray = [
   {
       name: "Print Gallery",
       url: "/Images/EscherWorks/B410 Print Gallery in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B410 Print Gallery in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B410 Print Gallery in Frame.jpg",
       id: 52,
       carousel: [
           "/Images/EscherWorks/B410 Print Gallery close.JPG",
@@ -606,7 +606,7 @@ const pathArray = [
   {
       name: "Fish Vingnette invitation in Frame",
       url: "/Images/EscherWorks/B414 Fish Vingnette invitation in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B414 Fish Vingnette invitation in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B414 Fish Vingnette invitation in Frame.jpg",
       id: 53,
       carousel: [
           "/Images/EscherWorks/B414 Fish Vingnette invitation in Frame.JPG"
@@ -617,7 +617,7 @@ const pathArray = [
   {
       name: "Cube with Magic Ribbon",
       url: "/Images/EscherWorks/B415 Cube with Magic Ribbon in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B415 Cube with Magic Ribbon in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B415 Cube with Magic Ribbon in Frame.jpg",
       id: 54,
       carousel: [
           "/Images/EscherWorks/B415 Cube with Magic Ribbon close.JPG",
@@ -629,7 +629,7 @@ const pathArray = [
   {
       name: "Plane Filling 2",
       url: "/Images/EscherWorks/B422 Plane Filling 2 in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B422 Plane Filling 2 in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B422 Plane Filling 2 in Frame.jpg",
       id: 55,
       carousel: [
           "/Images/EscherWorks/B422 Plane Filling 2 close.JPG",
@@ -641,7 +641,7 @@ const pathArray = [
   {
       name: "Whirlpools",
       url: "/Images/EscherWorks/B423 Whirlpools in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B423 Whirlpools in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B423 Whirlpools in Frame.jpg",
       id: 56,
       carousel: [
           "/Images/EscherWorks/B423 Whirlpools close.JPG",
@@ -653,7 +653,7 @@ const pathArray = [
   {
       name: "Whirlpools Proof",
       url: "/Images/EscherWorks/B423 Whirlpools Proof in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B423 Whirlpools Proof in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B423 Whirlpools Proof in Frame.jpg",
       id: 57,
       carousel: [
           "/Images/EscherWorks/B423 Whirlpools Proof close.JPG",
@@ -665,7 +665,7 @@ const pathArray = [
   {
       name: "Belvvedere",
       url: "/Images/EscherWorks/B426 Belvvedere close.JPG",
-      thumb: "/Images/EsherThumbnail/B426 Belvvedere close.jpg",
+      thumb: "/Images/EscherThumbnail/B426 Belvvedere close.jpg",
       id: 58,
       carousel: [
           "/Images/EscherWorks/B426 Belvvedere close.JPG",
@@ -677,7 +677,7 @@ const pathArray = [
   {
       name: "Sphere Surface with Fish",
       url: "/Images/EscherWorks/B427 Sphere Surface with Fish in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B427 Sphere Surface with Fish in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B427 Sphere Surface with Fish in Frame.jpg",
       id: 59,
       carousel: [
           "/Images/EscherWorks/B427 Sphere Surface with Fish close.JPG",
@@ -689,7 +689,7 @@ const pathArray = [
   {
       name: "Sphere Spirals",
       url: "/Images/EscherWorks/B428 Sphere Spirals with Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B428 Sphere Spirals with Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B428 Sphere Spirals with Frame.jpg",
       id: 60,
       carousel: [
           "/Images/EscherWorks/B428 Sphere Spirals close.JPG",
@@ -701,7 +701,7 @@ const pathArray = [
   {
       name: "Flatworms in Frame",
       url: "/Images/EscherWorks/B431 Flatworms in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B431 Flatworms in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B431 Flatworms in Frame.jpg",
       id: 61,
       carousel: [
           "/Images/EscherWorks/B431 Flatworms in Frame.JPG"
@@ -712,7 +712,7 @@ const pathArray = [
   {
       name: "Circle Limit 2 in Frame",
       url: "/Images/EscherWorks/B432 Circle Limit 2 in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B432 Circle Limit 2 in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B432 Circle Limit 2 in Frame.jpg",
       id: 62,
       carousel: [
           "/Images/EscherWorks/B432 Circle Limit 2 close.JPG",
@@ -724,7 +724,7 @@ const pathArray = [
   {
       name: "Fish and Scales",
       url: "/Images/EscherWorks/B433 Fish and Scales in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B433 Fish and Scales in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B433 Fish and Scales in Frame.jpg",
       id: 63,
       carousel: [
           "/Images/EscherWorks/B433 Fish and Scales close.JPG",
@@ -736,7 +736,7 @@ const pathArray = [
   {
       name: "Ascending and Descending",
       url: "/Images/EscherWorks/B435 Ascending and Descending close.JPG",
-      thumb: "/Images/EsherThumbnail/B435 Ascending and Descending close.jpg",
+      thumb: "/Images/EscherThumbnail/B435 Ascending and Descending close.jpg",
       id: 64,
       carousel: [
           "/Images/EscherWorks/B435 Ascending and Descending close.JPG",
@@ -748,7 +748,7 @@ const pathArray = [
   {
       name: "Circle Limit 4",
       url: "/Images/EscherWorks/B436 Circle Limit 4 close.JPG",
-      thumb: "/Images/EsherThumbnail/B436 Circle Limit 4 close.jpg",
+      thumb: "/Images/EscherThumbnail/B436 Circle Limit 4 close.jpg",
       id: 65,
       carousel: [
           "/Images/EscherWorks/B436 Circle Limit 4 close.JPG",
@@ -760,7 +760,7 @@ const pathArray = [
   {
       name: "Moebius Strip 1",
       url: "/Images/EscherWorks/B437 Moebius Strip 1 close.JPG",
-      thumb: "/Images/EsherThumbnail/B437 Moebius Strip 1 close.jpg",
+      thumb: "/Images/EscherThumbnail/B437 Moebius Strip 1 close.jpg",
       id: 66,
       carousel: [
           "/Images/EscherWorks/B437 Moebius Strip 1 close.JPG",
@@ -772,7 +772,7 @@ const pathArray = [
   {
       name: "Waterfall",
       url: "/Images/EscherWorks/B439 Waterfall close.JPG",
-      thumb: "/Images/EsherThumbnail/B439 Waterfall close.jpg",
+      thumb: "/Images/EscherThumbnail/B439 Waterfall close.jpg",
       id: 67,
       carousel: [
           "/Images/EscherWorks/B439 Waterfall close.JPG",
@@ -784,7 +784,7 @@ const pathArray = [
   {
       name: "Moebiu Strip 2",
       url: "/Images/EscherWorks/B441 Moebiu Strip 2 close.JPG",
-      thumb: "/Images/EsherThumbnail/B441 Moebiu Strip 2 close.jpg",
+      thumb: "/Images/EscherThumbnail/B441 Moebiu Strip 2 close.jpg",
       id: 68,
       carousel: [
           "/Images/EscherWorks/B441 Moebiu Strip 2 close.JPG",
@@ -796,7 +796,7 @@ const pathArray = [
   {
       name: "Knot single know with burn in Frame",
       url: "/Images/EscherWorks/B444 Knot single know with burn in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knot single know with burn in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knot single know with burn in Frame.jpg",
       id: 69,
       carousel: [
           "/Images/EscherWorks/B444 Knots single knot with burn close.JPG",
@@ -808,7 +808,7 @@ const pathArray = [
   {
       name: "Knots",
       url: "/Images/EscherWorks/B444 Knots close.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knots close.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knots close.jpg",
       id: 70,
       carousel: [
           "/Images/EscherWorks/B444 Knots close.JPG",
@@ -820,7 +820,7 @@ const pathArray = [
   {
       name: "Knots unique drawing of large knot",
       url: "/Images/EscherWorks/B444 Knots unique drawing of large knot.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knots unique drawing of large knot.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knots unique drawing of large knot.jpg",
       id: 71,
       carousel: [
           "/Images/EscherWorks/B444 Knots unique drawing of large knot.JPG"
@@ -831,7 +831,7 @@ const pathArray = [
   {
       name: "Knots Wood Block A",
       url: "/Images/EscherWorks/B444 Knots Wood Block A.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knots Wood Block A.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knots Wood Block A.jpg",
       id: 72,
       carousel: [
           "/Images/EscherWorks/B444 Knots Wood Block A.JPG"
@@ -842,7 +842,7 @@ const pathArray = [
   {
       name: "Knots Wood Block B",
       url: "/Images/EscherWorks/B444 Knots Wood Block B.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knots Wood Block B.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knots Wood Block B.jpg",
       id: 73,
       carousel: [
           "/Images/EscherWorks/B444 Knots Wood Block B.JPG"
@@ -853,7 +853,7 @@ const pathArray = [
   {
       name: "Knots Wood Block C",
       url: "/Images/EscherWorks/B444 Knots Wood Block C.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knots Wood Block C.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knots Wood Block C.jpg",
       id: 74,
       carousel: [
           "/Images/EscherWorks/B444 Knots Wood Block C.JPG"
@@ -864,7 +864,7 @@ const pathArray = [
   {
       name: "Knots Wood Blocks 3",
       url: "/Images/EscherWorks/B444 Knots Wood Blocks 3.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knots Wood Blocks 3.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knots Wood Blocks 3.jpg",
       id: 75,
       carousel: [
           "/Images/EscherWorks/B444 Knots Wood Blocks 3.JPG"
@@ -875,7 +875,7 @@ const pathArray = [
   {
       name: "Knots Wood Blocks all",
       url: "/Images/EscherWorks/B444 Knots Wood Blocks all.JPG",
-      thumb: "/Images/EsherThumbnail/B444 Knots Wood Blocks all.jpg",
+      thumb: "/Images/EscherThumbnail/B444 Knots Wood Blocks all.jpg",
       id: 76,
       carousel: [
           "/Images/EscherWorks/B444 Knots Wood Blocks all.JPG"
@@ -886,7 +886,7 @@ const pathArray = [
   {
       name: "Path of Life",
       url: "/Images/EscherWorks/B445 Path of Life close.JPG",
-      thumb: "/Images/EsherThumbnail/B445 Path of Life close.jpg",
+      thumb: "/Images/EscherThumbnail/B445 Path of Life close.jpg",
       id: 77,
       carousel: [
           "/Images/EscherWorks/B445 Path of Life close.JPG",
@@ -898,7 +898,7 @@ const pathArray = [
   {
       name: "Symmetry 125",
       url: "/Images/EscherWorks/B445 Symmetry 125 close.JPG",
-      thumb: "/Images/EsherThumbnail/B445 Symmetry 125 close.jpg",
+      thumb: "/Images/EscherThumbnail/B445 Symmetry 125 close.jpg",
       id: 78,
       carousel: [
           "/Images/EscherWorks/B445 Symmetry 125 close.JPG",
@@ -910,7 +910,7 @@ const pathArray = [
   {
       name: "Pearl Jam Emek Day and Night 2018 close",
       url: "/Images/EscherWorks/P111 Pearl Jam Emek Day and Night 2018 close.JPG",
-      thumb: "/Images/EsherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg",
+      thumb: "/Images/EscherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg",
       id: 79,
       carousel: [
           "/Images/EscherWorks/P111 Pearl Jam Emek Day and Night 2018 close.JPG"
@@ -921,7 +921,7 @@ const pathArray = [
   {
       name: "Sphere with Fish",
       url: "/Images/EscherWorks/S111 Sphere with Fish.JPG",
-      thumb: "/Images/EsherThumbnail/S111 Sphere with Fish.jpg",
+      thumb: "/Images/EscherThumbnail/S111 Sphere with Fish.jpg",
       id: 80,
       carousel: [
           "/Images/EscherWorks/S111 Sphere with Fish.JPG"
@@ -932,7 +932,7 @@ const pathArray = [
   {
       name: "Unique Ronda",
       url: "/Images/EscherWorks/U111 Unique Ronda close.JPG",
-      thumb: "/Images/EsherThumbnail/U111 Unique Ronda close.jpg",
+      thumb: "/Images/EscherThumbnail/U111 Unique Ronda close.jpg",
       id: 81,
       carousel: [
           "/Images/EscherWorks/U111 Unique Ronda close.JPG",
@@ -944,7 +944,7 @@ const pathArray = [
   {
       name: "Other World close",
       url: "/Images/EscherWorks/B348 Other World close.JPG",
-      thumb: "/Images/EsherThumbnail/B348 Other World close.jpg",
+      thumb: "/Images/EscherThumbnail/B348 Other World close.jpg",
       id: 82,
       carousel: [
           "/Images/EscherWorks/B348 Other World close.JPG",
@@ -956,7 +956,7 @@ const pathArray = [
   {
       name: "Stars in Frame",
       url: "/Images/EscherWorks/B359 Stars in Frame.JPG",
-      thumb: "/Images/EsherThumbnail/B359 Stars in Frame.jpg",
+      thumb: "/Images/EscherThumbnail/B359 Stars in Frame.jpg",
       id: 83,
       carousel: [
           "/Images/EscherWorks/B359 Stars in Frame.JPG"
@@ -967,7 +967,7 @@ const pathArray = [
   {
       name: "to B385 Strens Elements all",
       url: "/Images/EscherWorks/B382 to B385 Strens Elements all close.JPG",
-      thumb: "/Images/EsherThumbnail/B382 to B385 Strens Elements all close.jpg",
+      thumb: "/Images/EscherThumbnail/B382 to B385 Strens Elements all close.jpg",
       id: 84,
       carousel: [
           "/Images/EscherWorks/B382 to B385 Strens Elements all close.JPG",

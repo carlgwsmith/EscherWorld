@@ -27,7 +27,7 @@ export default function Gallery(props){
             }
             imgObj.name = worksPaths[i].name
             imgObj.url = worksPaths[i].url
-            imgObj.thumb = '/Images/EsherThumbnail/' + worksPaths[i].url.slice(20, -4) + '.jpg'
+            imgObj.thumb = '/Images/EscherThumbnail/' + worksPaths[i].url.slice(20, -4) + '.jpg'
             if(worksPaths[i].close){
                 imgObj.carousel.push(worksPaths[i].close)
                 imgObj.inframe = worksPaths[i].close
