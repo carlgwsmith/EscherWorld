@@ -62,11 +62,11 @@ export default function EscherWork(){
             <div className="artPod items-center justify-center flex">
                 <img src={workImg}/>
                 <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
-                    {/* {carouselImages.map(url =>(
+                    {carouselImages.map(url =>(
                         <div key={url}>
                             <img src={url}/>
                         </div>
-                    ))} */}
+                    ))}
             </Carousel>
             </div>
         </div>
