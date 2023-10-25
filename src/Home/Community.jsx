@@ -15,7 +15,7 @@ export default function Community(props){
     <div>
         <Link to={props.buttonLink}>
             <div className="button text-center mt-8 p-4 text-sm text-snow
-            font-semibold rounded-lg bg-purpleCTA hover:bg-opacity-80 hover:shadow-sm duration-300">
+            font-semibold rounded-lg bg-purpleCTA hover:bg-opacity-60 hover:shadow-sm duration-300">
                 {props.buttonCTA}
             </div>
         </Link>

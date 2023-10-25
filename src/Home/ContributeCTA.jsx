@@ -13,7 +13,7 @@ export default function ContributeCTA(props){
     <div className="xs:px-[40px] md:px-[80px] xs:col-span-6 md:col-span-2">
         <Link to={props.buttonLink}>
             <div className="button text-center mt-8 p-4 text-sm text-purpleCTA
-            font-semibold rounded-lg bg-white hover:bg-opacity-80 hover:shadow-sm duration-300">
+            font-semibold rounded-lg bg-white hover:bg-opacity-60 hover:shadow-sm duration-300">
                 {props.buttonCTA}
             </div>
         </Link>

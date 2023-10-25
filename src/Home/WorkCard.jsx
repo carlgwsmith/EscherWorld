@@ -29,7 +29,7 @@ export default function WorkCard(props){
                 <div className="text-center p-5">
                     <Link to={props.buttonLink}>
                         <div className="button  p-4 text-sm text-snow
-                        font-semibold rounded-lg bg-purpleCTA hover:bg-opacity-80 hover:shadow-sm duration-300">
+                        font-semibold rounded-lg bg-purpleCTA hover:bg-opacity-60  hover:shadow-sm duration-300">
                             {props.buttonCTA}
                         </div>
                     </Link>
