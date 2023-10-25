@@ -154,7 +154,7 @@ vec3 calcWaterNormal( in vec3 pos)
 // this helps because the displacement is costly
 float ray_march_water( vec3 eye, vec3 ray_dir ) {
     float dist = 0.0;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 7; i++) {
         float d = sdPlane( eye + dist * ray_dir );
         if ( d < 0.001) {
       		break;

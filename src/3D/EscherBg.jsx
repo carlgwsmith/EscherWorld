@@ -1,9 +1,8 @@
 import { useMemo, useRef } from "react";
 import fragmentShader from './Shaders/fragmentEscher'
 import vertexShader from './Shaders/vertexEscher'
-import { useFrame, useThree } from "@react-three/fiber";
+import { useFrame} from "@react-three/fiber";
 import * as THREE from 'three'
-import { Center } from "@react-three/drei";
 export default function EscherBg (){
     const meshRef = useRef();
     
@@ -14,7 +13,7 @@ export default function EscherBg (){
     let time = state.clock.getElapsedTime();
     
     // start from 20 to skip first 20 seconds ( optional )
-    meshRef.current.material.uniforms.iTime.value = time + 20;
+    meshRef.current.material.uniforms.iTime.value = time
   });
 
   // Define the shader uniforms with memoization to optimize performance
