@@ -11,10 +11,13 @@ import EscherWork from './Gallery/EsherWork';
 import Reptiles from './ContributorWorks/Works/Reptiles'
 import AngelandDevils from './ContributorWorks/Works/AngelsAndDevils'
 import Kothekar from './ContributorWorks/Works/Kothekar'
+import CreateWork from './Config/CreateWork';
+import Login from './Config/Login';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ContributedWorks from './Config/ContributedWorks';
 const routes = [
   {path:'/*',
 element:<Home/>},
@@ -64,6 +67,19 @@ element:<Home/>},
       {
         path: "/contact",
         element: <Contact/>,
+      },
+      {
+        path:'/login',
+        element: <Login/>
+      },
+      {
+        path:'/createWork',
+        element: <CreateWork/>
+      }
+      ,
+      {
+        path:'/contributedWorks',
+        element: <ContributedWorks/>
       }
     ]
   },

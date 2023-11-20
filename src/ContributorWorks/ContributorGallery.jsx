@@ -2,6 +2,7 @@ import ContributeCTA from '../Home/ContributeCTA'
 import ContributorCard from './ContributorCard'
 import Community from '../Home/Community'
 import FeaturedWorks from '../Home/FeaturedWorks';
+import ContributedGallery from '../Config/ContributedGallery';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -45,6 +46,12 @@ export default function ContributorGallery (props){
         <div className="xs:col-span-1 md:col-span-2 sort-inactive">Digital</div>
     </div>
     <FeaturedWorks/>
+    <div className="grid sm:grid-cols-1 md:grid-cols-4 gap-4 mt-4 text-center xs:mx-[20px] sm:mx-[20px] md:mx-[80px]">
+    <div className="xs:col-span-1 md:col-span-12">
+            <p className="text-snow font-bold uppercase">Database Contributor Works</p>
+        </div>
+    </div>
+    <ContributedGallery/>
     {/* <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 my-10 mx-[100px]">
         <ContributorCard title="Reptiles" img="/Images/marcoLizards.png" id="1"/>
         <ContributorCard title="Angels and Devils" img="/Images/angelsAndDevils.png" id="2"/>

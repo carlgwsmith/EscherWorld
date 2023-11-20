@@ -38,7 +38,7 @@ export default function EscherBg (){
     // position={[1, 2, 3]}
     >
         
-      <planeGeometry args={[20, 5]}/>
+      <planeGeometry args={[10, 5]}/>
       <shaderMaterial
       opacity={.5}
         uniforms={uniforms}

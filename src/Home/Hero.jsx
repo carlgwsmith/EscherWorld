@@ -7,7 +7,7 @@ export default function Hero (){
     const canvas  = useRef()
     
     useEffect(() => {
-        console.log(canvas)
+        // console.log(canvas)
     }, []);
     return(<>
         <Canvas
