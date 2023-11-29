@@ -1,26 +1,71 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import supabase from "../Config/supabaseClient";
 import {useNavigate, Link} from 'react-router-dom';
-import { useEffect } from "react";
+import { v4 as uuivd4 } from "uuid";
 
 export default function CreateWork(){
     const [contributor_name, setContributorName] = useState('');
     const [work_title, setWork_title] = useState('');
     const [reference_artwork, setReference_artwork] = useState('');
     const [work_description, setWork_description] = useState('');
-    const [work, setWork] = useState('')
     const [formError, setformError] = useState('');
     const navigate = useNavigate()
+    const [userId, setUserId] = useState('')
+    const [media, setMedia] = useState([])
+    const [media_url, setmedia_url] = useState('')
+
+    const getUser = async()=>{
+        const { data: { user }, error } = await supabase.auth.getUser()
+        if(error){
+            setUserId(null)
+            setmedia_url()
+        }
+        else{
+            setUserId(user.id)
+        }
+    }
+
+    // async function getMedia(){
+    //     const {data, error} = await supabase.storage.from('contributor-works').list(userId, + '/',{
+    //         limit: 10,
+    //         offset: 0,
+    //         sortBy:{
+    //             column: 'name', order: 'asc'
+    //         }
+    //     })
+
+    //     if (data){
+    //         setmedia_url('https://lxqtniuuczmjlopncjat.supabase.co/storage/v1/object/public/contributor-works/' + userId  )
+    //     }
+    //     else{
+    //         console.log(error)
+    //     }
+    // }
+
 
     const handleSubmit = async (e)=>{
         e.preventDefault()
-        if(!contributor_name || !reference_artwork || !work_description || !work || !work_title){
+        let media_url = ""
+        if(media){
+            const {data, error} = await supabase.storage.from("contributor-works").upload(userId + '/' + media.name, media)
+            
+            if(error){
+                console.log(error)
+            }
+            if(data){
+                console.log(data)
+                setmedia_url(userId + '/' + media.name )
+                media_url = userId + '/' + media.name 
+            }
+        }
+
+        if(!contributor_name || !reference_artwork || !work_description || !work_title){
             setformError('Complete all form fields')
             return
         }
         const {data, error} = await supabase
         .from('ContributorWorks')
-        .insert([{work_title, work, contributor_name, reference_artwork, work_description}])
+        .upsert([{work_title, media_url, contributor_name, reference_artwork, work_description}])
         .select()
 
         if(error){
@@ -33,6 +78,14 @@ export default function CreateWork(){
             navigate('/contributedWorks')
         }
     }
+
+    useEffect(() => {
+        getUser()
+    }, [userId]);
+
+    useEffect(() => {
+        setmedia_url()
+    }, [media]);
 
     return(<>
     <div className="grid grid-cols-6 px-[40px] py-[20px]">
@@ -61,7 +114,7 @@ export default function CreateWork(){
             </div>
             <div className="col-span-4 col-start-2 mb-4">
                 <label htmlFor="eventimage" className="block font-bold">Upload your work</label>
-                <input type="text" className="w-[100%] p-2 h-10 rounded-sm border-1 border-gray-400" placeholder="right now this needs to be an image url" id="eventimage" value={work} onChange={(e)=> setWork(e.target.value)} />
+                <input type="file" accept="image/jpeg image/png" className="w-[100%] p-2 h-10 rounded-sm border-1 border-gray-400" id="eventimage" onChange={(e)=> setMedia(e.target.files[0])} />
             </div>
             <div className="col-span-4 col-start-2 mb-4">
                 <Link to="/contributedWorks">
