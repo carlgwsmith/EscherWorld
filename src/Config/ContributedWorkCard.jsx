@@ -21,6 +21,7 @@ export default function ContributedWorkCard ({ work, onDelete }){
         console.log(error)
     }
     if(data){
+        console.log('deleting..')
         onDelete(work.id)
     }
  }

@@ -10,23 +10,23 @@ export default function CreateWork(){
     const [work_description, setWork_description] = useState('');
     const [formError, setformError] = useState('');
     const navigate = useNavigate()
-    const [userId, setUserId] = useState('')
+    const [user_id, setuser_id] = useState('')
     const [media, setMedia] = useState([])
     const [media_url, setmedia_url] = useState('')
 
     const getUser = async()=>{
         const { data: { user }, error } = await supabase.auth.getUser()
         if(error){
-            setUserId(null)
+            setuser_id(null)
             setmedia_url()
         }
         else{
-            setUserId(user.id)
+            setuser_id(user.id)
         }
     }
 
     // async function getMedia(){
-    //     const {data, error} = await supabase.storage.from('contributor-works').list(userId, + '/',{
+    //     const {data, error} = await supabase.storage.from('contributor-works').list(user_id, + '/',{
     //         limit: 10,
     //         offset: 0,
     //         sortBy:{
@@ -35,7 +35,7 @@ export default function CreateWork(){
     //     })
 
     //     if (data){
-    //         setmedia_url('https://lxqtniuuczmjlopncjat.supabase.co/storage/v1/object/public/contributor-works/' + userId  )
+    //         setmedia_url('https://lxqtniuuczmjlopncjat.supabase.co/storage/v1/object/public/contributor-works/' + user_id  )
     //     }
     //     else{
     //         console.log(error)
@@ -47,15 +47,15 @@ export default function CreateWork(){
         e.preventDefault()
         let media_url = ""
         if(media){
-            const {data, error} = await supabase.storage.from("contributor-works").upload(userId + '/' + media.name, media)
+            const {data, error} = await supabase.storage.from("contributor-works").upload(user_id + '/' + media.name, media)
             
             if(error){
                 console.log(error)
             }
             if(data){
                 console.log(data)
-                setmedia_url(userId + '/' + media.name )
-                media_url = userId + '/' + media.name 
+                setmedia_url(user_id + '/' + media.name )
+                media_url = user_id + '/' + media.name 
             }
         }
 
@@ -65,7 +65,7 @@ export default function CreateWork(){
         }
         const {data, error} = await supabase
         .from('ContributorWorks')
-        .upsert([{work_title, media_url, contributor_name, reference_artwork, work_description}])
+        .upsert([{work_title, media_url, contributor_name, reference_artwork, work_description, user_id}])
         .select()
 
         if(error){
@@ -81,7 +81,7 @@ export default function CreateWork(){
 
     useEffect(() => {
         getUser()
-    }, [userId]);
+    }, [user_id]);
 
     useEffect(() => {
         setmedia_url()

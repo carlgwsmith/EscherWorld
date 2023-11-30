@@ -86,7 +86,7 @@ export default function ContributedGallery (){
                 // }
                 return (<>
                 <WorkCard
-                featuredImg={work.work}
+                featuredImg={'https://lxqtniuuczmjlopncjat.supabase.co/storage/v1/object/public/contributor-works/' + work.media_url}
                 projName={work.work_title}
                 projDesc={work.work_description}
                 buttonCTA="View Artwork"
