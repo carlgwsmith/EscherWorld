@@ -10,6 +10,9 @@ export default function ContributorDataCard(props){
             setLoading(false)
         }, 1000);
     }, []);
+
+
+
     return(
         <div className="w-[300px] h-[500px] bg-night rounded-lg border-solid border-jet border-2">
             <div className="grid">
@@ -21,11 +24,11 @@ export default function ContributorDataCard(props){
                 :
                 <div>
                      <div className="grid h-[200px] bg-cover bg-center bg-[image:var(--image-url)]" style={{'--image-url': `url(${props.featuredImg})`}} ></div>
-                    <div className="p-5">
+                    <div className="p-5 h-[200px]">
                     <div className="text-lg font-bold">{props.projName}</div>
                     <div className="text-sm">{props.projDesc}</div>
                 </div>
-                <div className="text-center p-5">
+                <div className="text-center p-5 align-bottom">
                     <Link to={props.buttonLink}>
                         <div className="button  p-4 text-sm text-snow
                         font-semibold rounded-lg bg-purpleCTA hover:bg-opacity-60  hover:shadow-sm duration-300">
