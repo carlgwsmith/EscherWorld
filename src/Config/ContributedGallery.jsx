@@ -4,7 +4,7 @@ import ContributedWorkCard from "./ContributedWorkCard"
 import { Link } from "react-router-dom"
 import {GrFormAdd} from 'react-icons/gr'
 import {BiLeftArrowAlt, BiRightArrowAlt} from 'react-icons/bi'
-import WorkCard from "../Home/WorkCard"
+import ContributorDataCard from "./ContributorDataCard"
 
 export default function ContributedGallery (){
  const [error, setError] = useState(null)
@@ -71,21 +71,22 @@ export default function ContributedGallery (){
 
 
     return(<>
-    <div className=" xs:mx-[20px] sm:mx-[20px] md:mx-[80px] pb-6">
+    <div className="m-auto grid grid-cols-3 sm:px-[20px] md:px-[80px] pt-16 pb-24 ">
+    <div className="col-span-3 m-auto">
     {/* <div className="grid grid-cols-12 px-4 py-[60px]">
                 <div className="col-span-4">
                    <Link to="/createWork" className="border-1 bg-slate-400 p-4 rounded-sm text-gray-900"><GrFormAdd className="inline"/>Create New Work</Link>
                 </div>
             </div> */}
         {error && (<p>{error}</p>)}
-        {works && (<div className="grid grid-cols-3 gap-4">
+        {works && (<div className="grid grid-cols-auto xs:grid-cols-1 mdlg:grid-cols-3 gap-20">
             {works.map((work) => {
 
                 // if (eventMonth  == currentMonth && eventYear == currentYear){
                 //     return <EventListCard key={event.id} event={event} onDelete={handleDelete}/>
                 // }
                 return (<>
-                <WorkCard
+                <ContributorDataCard
                 featuredImg={'https://lxqtniuuczmjlopncjat.supabase.co/storage/v1/object/public/contributor-works/' + work.media_url}
                 projName={work.work_title}
                 projDesc={work.work_description}
@@ -95,6 +96,7 @@ export default function ContributedGallery (){
                 </>)
             })}
         </div>)}
+    </div>
     </div>
     </>)
 }
