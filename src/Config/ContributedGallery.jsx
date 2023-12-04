@@ -91,7 +91,7 @@ export default function ContributedGallery (){
                 projName={work.work_title}
                 projDesc={work.work_description}
                 buttonCTA="View Artwork"
-                buttonLink={`/contributor-works/angelsanddevils`}
+                buttonLink={`/contributor-works/artwork/` + work.id}
                 />
                 </>)
             })}

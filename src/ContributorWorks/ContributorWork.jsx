@@ -3,10 +3,47 @@ import {PiCameraBold} from 'react-icons/pi'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import ContributeCTA from '../Home/ContributeCTA';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useParams} from 'react-router-dom';
 import FeaturedWorks from '../Home/FeaturedWorks';
+import supabase from '../Config/supabaseClient';
+import { useEffect, useState } from 'react'
 
-export default function ContributorWork (props){
+
+export default function Event(){
+    const {id} = useParams()
+    const [contributor_name, setContributorName] = useState('');
+    const [work_title, setWork_title] = useState('');
+    const [reference_artwork, setReference_artwork] = useState('');
+    const [work_description, setWork_description] = useState('');
+    const [formError, setformError] = useState('');
+    const navigate = useNavigate()
+    const [media_url, setmedia_url] = useState('')
+
+    useEffect(() => {
+        const fetchEvent = async ()=>{
+            const {data, error} = await supabase
+            .from('ContributorWorks')
+            .select()
+            .eq('id', id)
+            .single()
+
+            if(error){
+                setFormError('Event can not be retreived')
+                navigate('/', {replace: true})
+            }
+            if(data){
+                setContributorName(data.contributor_name)
+                setWork_title(data.work_title)
+                setReference_artwork(data.reference_artwork)
+                setWork_description(data.work_description)
+                setmedia_url(data.media_url)
+            }
+        }
+        fetchEvent()
+
+
+    }, [id, navigate ]);
+
     return(
         <>
         <div className='mx-[40px]'>
@@ -17,14 +54,14 @@ export default function ContributorWork (props){
     </div>
     <div className="grid grid-cols-3 gap-4 my-[24px]">
         <div className='col-span-3'>
-            <h2 className="text-4xl text-center font-bold">{props.artworkTitle || 'Artwork Title / Heading' }</h2>
+            <h2 className="text-4xl text-center font-bold">{work_title || 'Artwork Title / Heading' }</h2>
         </div>
     </div>
     <hr className='separator'/>
     <div className="grid grid-cols-6 gap-4  my-[24px]">
         <div className='xs:col-span-6 sm:col-span-4'>
             <div className="artPod items-center justify-center flex">
-                <PiCameraBold size="30px"/>
+               <img src={'https://lxqtniuuczmjlopncjat.supabase.co/storage/v1/object/public/contributor-works/' + media_url}/>
             </div>
         </div>
         <div className="xs:col-span-6 sm:col-span-2">
@@ -45,9 +82,7 @@ export default function ContributorWork (props){
                 </div>
             </Carousel>
             <h3 className='text-lg font-bold mb-[24px] mt-[24px]'>About This Artwork</h3>
-            <p>Lorem ipsum dolor sit amet consectetur. Ut sagittis et vulputate et elementum.Lorem ipsum dolor sit amet consectetur. Ut sagittis et vutate et elementum. Lorem ipsum dolor sit amet nsectetur. Ut sagittis et vulputate et eletum.Lorem ipsum dolor sit amet consectetur. Ut sagittis et vulputate et elentum.</p>
-            <p>Ut sagis et vulputate et elementum.Lorem psum dolor sit amet consectetur. Ut sagittis et vulputate et el. Lorem ipsum dolor sit amet consectetur. Ut sgittis et vulputate et elementum.Lorem ipsum dolor sit amet consectetur.</p>
-            <p>Ut sagittis et vutate et elementum. Lorem ipsum dolor sit amet consectetur. </p>
+            <p>{work_description}</p>
             {/* <Link to={props.buttonLink}> */}
                         <div className="button  p-4 text-sm text-snow
                         font-semibold rounded-lg bg-purpleCTA 
@@ -65,5 +100,5 @@ export default function ContributorWork (props){
 buttonCTA="Contribute Your Work"/>
 <FeaturedWorks/>
 </>
-    )
+        )
 }
