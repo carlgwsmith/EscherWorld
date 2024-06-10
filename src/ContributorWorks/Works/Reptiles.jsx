@@ -40,7 +40,7 @@ export default function Reptiles (props){
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div>
-                    <img src="http://127.0.0.1:5173/Images/EscherThumbnail/B422%20Plane%20Filling%202%20close.jpg"/>
+                    <img src="/Images/EscherThumbnail/B422%20Plane%20Filling%202%20close.jpg"/>
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
