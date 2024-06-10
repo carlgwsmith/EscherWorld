@@ -10,10 +10,12 @@ export default function EscherBg (){
   // Load the noise texture and update the shader uniform
 //   const noiseTexture = useTexture("noise2.png");
   useFrame((state) => {
-    let time = state.clock.getElapsedTime();
+      let time = state.clock.getElapsedTime();
     
     // start from 20 to skip first 20 seconds ( optional )
-    meshRef.current.material.uniforms.iTime.value = time
+    if(time < 15){
+      meshRef.current.material.uniforms.iTime.value = time
+    }
   });
 
   // Define the shader uniforms with memoization to optimize performance

@@ -20,7 +20,7 @@ useEffect(() => {
 
 
 const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-snow text-snow border-black border-b-[3px] duration-300'
-
+const loginLink = 'm-[8px] text-[14px] py-[8px] px-[16px] rounded bg-purpleCTA hover:text-shadow-pop-bl hover:border-snow text-snow border-black border-b-[3px] duration-300'
     return(
         <div className="flex justify-between items-center w-full bg-black border-b-1 py-8 px-10 border-jet h-12 text-snow">
                 <div className={logoEffect}>Escher World</div>
@@ -43,6 +43,11 @@ const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-snow tex
                     <li className={linkStyle}> 
                     <NavLink to={`/contact`}>
                             Contact
+                        </NavLink>
+                    </li>
+                    <li className={loginLink}> 
+                    <NavLink to={`/login`}>
+                            Login
                         </NavLink>
                     </li>
                 </ul>
