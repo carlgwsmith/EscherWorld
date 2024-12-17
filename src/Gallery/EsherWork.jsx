@@ -37,7 +37,7 @@ export default function EscherWork(){
     },[carouselImages, id, worksArr]);
 
     return(<>
-    <div className='mx-[40px] bg-jet'>
+    <div className='mx-[40px]'>
     <div className="grid xs:grid-cols-1 md:grid-cols-8 gap-4 my-[36px]">
         <div className="xs:grid-cols-1 md:col-span-2">
             <Link to="/gallery" >

@@ -9,7 +9,6 @@ const pathArray = [
         "/Images/EscherThumbnail/B921 St Francis close.jpg",
         "/Images/EscherThumbnail/B921 St Francis close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B921 St Francis close.jpg"
     },
     {
@@ -36,7 +35,6 @@ const pathArray = [
         "/Images/EscherThumbnail/B128 Self Portrait in Frame.jpg",
       ],
       close: "/Images/EscherThumbnail/B128 Self Portrait in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Still Life with Mirror",
@@ -86,10 +84,8 @@ const pathArray = [
       id: "7",
       carousel:[
         "/Images/EscherThumbnail/B303 Day and Night in Frame.jpg",
-      "",
       ],
       close: "/Images/EscherThumbnail/B303 Day and Night in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Cycle",
@@ -137,10 +133,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B322 Gravesande Bookplate close.jpg",
       id: "11",
       carousel:[
-        "/Images/EscherThumbnail/B322 Gravesande Bookplate close.jpg",
-      "",
+        "/Images/EscherThumbnail/B322 Gravesande Bookplate close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B322 Gravesande Bookplate close.jpg"
     },
     {
@@ -242,10 +236,8 @@ const pathArray = [
       id: "19",
       carousel:[
         "/Images/EscherThumbnail/B344 Eye in Frame.jpg",
-      "",
       ],
       close: "/Images/EscherThumbnail/B344 Eye in Frame.jpg",
-      inframe: ""
     },
     {
       name: "New Year 1947 greeting card close",
@@ -255,9 +247,7 @@ const pathArray = [
       id: "20",
       carousel:[
         "/Images/EscherThumbnail/B345 New Year 1947 greeting card close.jpg",
-      "",
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B345 New Year 1947 greeting card close.jpg"
     },
     {
@@ -280,11 +270,9 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B348 Other World in Frame.jpg",
       id: "22",
       carousel:[
-        "/Images/EscherThumbnail/B348 Other World in Frame.jpg",
-      "",
+        "/Images/EscherThumbnail/B348 Other World in Frame.jpg"
       ],
       close: "/Images/EscherThumbnail/B348 Other World in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Up and Down",
@@ -319,11 +307,9 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B357 Sun and Moon in Frame.jpg",
       id: "25",
       carousel:[
-        "/Images/EscherThumbnail/B357 Sun and Moon in Frame.jpg",
-      "",
+        "/Images/EscherThumbnail/B357 Sun and Moon in Frame.jpg"
       ],
       close: "/Images/EscherThumbnail/B357 Sun and Moon in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Birds invitation",
@@ -346,9 +332,7 @@ const pathArray = [
       id: "27",
       carousel:[
         "/Images/EscherThumbnail/B363 Horses and Bird invitation close.jpg",
-      "",
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B363 Horses and Bird invitation close.jpg"
     },
     {
@@ -398,9 +382,7 @@ const pathArray = [
       id: "31",
       carousel:[
         "/Images/EscherThumbnail/B373 Plane Filling 1 close.jpg",
-      "",
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B373 Plane Filling 1 close.jpg"
     },
     {
@@ -411,10 +393,8 @@ const pathArray = [
       id: "32",
       carousel:[
         "/Images/EscherThumbnail/B374 Curl Up in Frame.jpg",
-      "",
       ],
       close: "/Images/EscherThumbnail/B374 Curl Up in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Fish and Bird close",
@@ -424,9 +404,7 @@ const pathArray = [
       id: "33",
       carousel:[
         "/Images/EscherThumbnail/B376 Fish and Bird close.jpg",
-      "",
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B376 Fish and Bird close.jpg"
     },
     {
@@ -450,10 +428,8 @@ const pathArray = [
       id: "35",
       carousel:[
         "/Images/EscherThumbnail/B378 Puddle w frame.jpg",
-      "",
       ],
       close: "/Images/EscherThumbnail/B378 Puddle w frame.jpg",
-      inframe: ""
     },
     {
       name: "Dragon",
@@ -476,9 +452,7 @@ const pathArray = [
       id: "37",
       carousel:[
         "/Images/EscherThumbnail/B382 Strens Earth close.jpg",
-      "",
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B382 Strens Earth close.jpg"
     },
     {
@@ -488,10 +462,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B382 Strens Elements all close.jpg",
       id: "38",
       carousel:[
-        "/Images/EscherThumbnail/B382 Strens Elements all close.jpg",
-      "",
+        "/Images/EscherThumbnail/B382 Strens Elements all close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B382 Strens Elements all close.jpg"
     },
     {
@@ -501,10 +473,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B383 Strens Air close.jpg",
       id: "39",
       carousel:[
-        "/Images/EscherThumbnail/B383 Strens Air close.jpg",
-      "",
+        "/Images/EscherThumbnail/B383 Strens Air close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B383 Strens Air close.jpg"
     },
     {
@@ -514,10 +484,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B384 Strens Fire close.jpg",
       id: "40",
       carousel:[
-        "/Images/EscherThumbnail/B384 Strens Fire close.jpg",
-      "",
+        "/Images/EscherThumbnail/B384 Strens Fire close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B384 Strens Fire close.jpg"
     },
     {
@@ -527,10 +495,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B385 Strens Water close.jpg",
       id: "41",
       carousel:[
-        "/Images/EscherThumbnail/B385 Strens Water close.jpg",
-      "",
+        "/Images/EscherThumbnail/B385 Strens Water close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B385 Strens Water close.jpg"
     },
     {
@@ -540,10 +506,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B388 Relativity in Frame.jpg",
       id: "42",
       carousel:[
-        "/Images/EscherThumbnail/B388 Relativity close.jpg",
-      "",
+        "/Images/EscherThumbnail/B388 Relativity close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B388 Relativity close.jpg"
     },
     {
@@ -657,11 +621,9 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B409 Bond of Union in Frame.jpg",
       id: "51",
       carousel:[
-        "/Images/EscherThumbnail/B409 Bond of Union in Frame.jpg",
-      "",
+        "/Images/EscherThumbnail/B409 Bond of Union in Frame.jpg"
       ],
       close: "/Images/EscherThumbnail/B409 Bond of Union in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Print Gallery",
@@ -683,11 +645,9 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B414 Fish Vingnette invitation in Frame.jpg",
       id: "53",
       carousel:[
-        "/Images/EscherThumbnail/B414 Fish Vingnette invitation in Frame.jpg",
-      "",
+        "/Images/EscherThumbnail/B414 Fish Vingnette invitation in Frame.jpg"
       ],
       close: "/Images/EscherThumbnail/B414 Fish Vingnette invitation in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Cube with Magic Ribbon",
@@ -787,11 +747,9 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B431 Flatworms in Frame.jpg",
       id: "61",
       carousel:[
-        "/Images/EscherThumbnail/B431 Flatworms in Frame.jpg",
-      "",
+        "/Images/EscherThumbnail/B431 Flatworms in Frame.jpg"
       ],
       close: "/Images/EscherThumbnail/B431 Flatworms in Frame.jpg",
-      inframe: ""
     },
     {
       name: "Circle Limit 2 in Frame",
@@ -917,11 +875,9 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B444 Knots unique drawing of large knot.jpg",
       id: "71",
       carousel:[
-        "/Images/EscherThumbnail/B444 Knots unique drawing of large knot.jpg",
-      "",
+        "/Images/EscherThumbnail/B444 Knots unique drawing of large knot.jpg"
       ],
       close: "/Images/EscherThumbnail/B444 Knots unique drawing of large knot.jpg",
-      inframe: ""
     },
     {
       name: "Knots Wood Block A",
@@ -930,10 +886,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Block A.jpg",
       id: "72",
       carousel:[
-        "/Images/EscherThumbnail/B444 Knots Wood Block A.jpg",
-      "",
+        "/Images/EscherThumbnail/B444 Knots Wood Block A.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B444 Knots Wood Block A.jpg"
     },
     {
@@ -943,10 +897,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Block B.jpg",
       id: "73",
       carousel:[
-        "/Images/EscherThumbnail/B444 Knots Wood Block B.jpg",
-      "",
+        "/Images/EscherThumbnail/B444 Knots Wood Block B.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B444 Knots Wood Block B.jpg"
     },
     {
@@ -956,10 +908,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Block C.jpg",
       id: "74",
       carousel:[
-        "/Images/EscherThumbnail/B444 Knots Wood Block C.jpg",
-      "",
+        "/Images/EscherThumbnail/B444 Knots Wood Block C.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B444 Knots Wood Block C.jpg"
     },
     {
@@ -969,10 +919,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Blocks 3.jpg",
       id: "75",
       carousel:[
-        "/Images/EscherThumbnail/B444 Knots Wood Blocks 3.jpg",
-      "",
+        "/Images/EscherThumbnail/B444 Knots Wood Blocks 3.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B444 Knots Wood Blocks 3.jpg"
     },
     {
@@ -982,10 +930,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Blocks all.jpg",
       id: "76",
       carousel:[
-        "/Images/EscherThumbnail/B444 Knots Wood Blocks all.jpg",
-      "",
+        "/Images/EscherThumbnail/B444 Knots Wood Blocks all.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/B444 Knots Wood Blocks all.jpg"
     },
     {
@@ -1021,10 +967,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg",
       id: "79",
       carousel:[
-        "/Images/EscherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg",
-      "",
+        "/Images/EscherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg"
     },
     {
@@ -1034,10 +978,8 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/S111 Sphere with Fish.jpg",
       id: "80",
       carousel:[
-        "/Images/EscherThumbnail/S111 Sphere with Fish.jpg",
-      "",
+        "/Images/EscherThumbnail/S111 Sphere with Fish.jpg"
       ],
-      close: "",
       inframe: "/Images/EscherThumbnail/S111 Sphere with Fish.jpg"
     },
     {
@@ -1073,11 +1015,9 @@ const pathArray = [
       thumb: "/Images/EscherThumbnail/B359 Stars in Frame.jpg",
       id: "83",
       carousel:[
-        "/Images/EscherThumbnail/B359 Stars in Frame.jpg",
-      "",
+        "/Images/EscherThumbnail/B359 Stars in Frame.jpg"
       ],
       close: "/Images/EscherThumbnail/B359 Stars in Frame.jpg",
-      inframe: ""
     },
     {
       name: "to B385 Strens Elements all",
