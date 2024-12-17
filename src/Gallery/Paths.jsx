@@ -1055,8 +1055,7 @@ const pathArray = [
     },
     {
       name: "Other World close",
-      description: "1947, woodcut\n Another World, also referred to as Other World,  presents the same scene from three distinct perspectives. Depicting an otherworldly lunar landscape inhabited by the mythological Simurgh, a bird with a human head. The cubic structure suggests a sense of confinement, while the surrounding universe extends infinitely. Saturn is in the lower right corner, and a spiral galaxy, likely Andromeda—Edwin Hubble's groundbreaking 1923 discovery that revealed the existence of galaxies beyond our own—sits in the lowest window.
-",
+      description: "1947, woodcut\n Another World, also referred to as Other World,  presents the same scene from three distinct perspectives. Depicting an otherworldly lunar landscape inhabited by the mythological Simurgh, a bird with a human head. The cubic structure suggests a sense of confinement, while the surrounding universe extends infinitely. Saturn is in the lower right corner, and a spiral galaxy, likely Andromeda—Edwin Hubble's groundbreaking 1923 discovery that revealed the existence of galaxies beyond our own—sits in the lowest window.",
       url: "/Images/EscherThumbnail/B348 Other World close.jpg",
       thumb: "/Images/EscherThumbnail/B348 Other World close.jpg",
       id: "82",
