@@ -45,11 +45,11 @@ const loginLink = 'm-[8px] text-[14px] py-[8px] px-[16px] rounded bg-purpleCTA h
                             Contact
                         </NavLink>
                     </li>
-                    <li className={loginLink}> 
                     <NavLink to={`/login`}>
+                    <li className={loginLink}> 
                             Login
-                        </NavLink>
                     </li>
+                    </NavLink>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
                     <HiMenu size={20} navbarOpen={true}/>

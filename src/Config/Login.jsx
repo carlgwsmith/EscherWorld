@@ -30,7 +30,7 @@ useEffect(() => {
 if (!session) {
   return (
   <div className="grid grid-cols-12">
-    <div className="col-span-6 bg-white col-start-4 p-10">
+    <div className="col-span-6 bg-night col-start-4 p-10">
     <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} />
     </div>
   </div>
