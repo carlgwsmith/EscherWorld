@@ -483,7 +483,7 @@ const pathArray = [
     },
     {
       name: "to B385 Strens Elements",
-      description: "",
+      description: "1952\n Strens’s commission to Escher for the 1952 New Year’s greetings followed a well-established tradition and added his unique touch by representing the four elements tessellating. Each reflects the color and motion of the element it represents.\n“The system of Fire is based solely on glide reflection; in Water, a rotation around a twofold axis, located in the centre of the square, occurs, i.e. all the blue fish are congruent “en bloc” with the brown; Air is a shifting system, in which neither axes nor reflection occurs. The first sketch (“Earth”), which I showed you earlier, is based on another system: in it, there are twofold and fourfold axes.” Escher in a letter to Strens, 1952.",
       url: "/Images/EscherThumbnail/B382 Strens Elements all close.jpg",
       thumb: "/Images/EscherThumbnail/B382 Strens Elements all close.jpg",
       id: "38",
@@ -509,7 +509,7 @@ const pathArray = [
     },
     {
       name: "Strens Fire close",
-      description: "",
+      description: "1952, woodcut block print\n This print in red and orange was produced using two blocks and grey letterpress printing. Escher's depiction of the Fire element features evil orange and red flame creatures tessellating.",
       url: "/Images/EscherThumbnail/B384 Strens Fire close.jpg",
       thumb: "/Images/EscherThumbnail/B384 Strens Fire close.jpg",
       id: "40",
@@ -522,7 +522,7 @@ const pathArray = [
     },
     {
       name: "Strens Water close",
-      description: "",
+      description: "1952, woodcut block print\nWoodcut in green and blue, created using two blocks, with grey letterpress printing. Blue and green fish tessellate representing water in Escher’s Elements. ",
       url: "/Images/EscherThumbnail/B385 Strens Water close.jpg",
       thumb: "/Images/EscherThumbnail/B385 Strens Water close.jpg",
       id: "41",
@@ -535,7 +535,7 @@ const pathArray = [
     },
     {
       name: "Relativity",
-      description: "",
+      description: "1947, lithograph and woodcut\n High and Low, also known as Up and Down, is an architectural piece that depicts multiple landings on a curving staircase. There is a lithograph and a woodcut-made version of this piece. The visual reflection of the scene on top and bottom merge in the middle, creating different viewpoints of the same staircase and courtyard. This optical illusion confused the perspective of the viewer, as one of Escher’s mathematical and architectural pieces. “Escher did not use sets of curved lines on their own in any print but proceeded to combine them with the relativity of vanishing points in the lithograph High and Low. . . .  All of these “vertical curves” can be seen to radiate from the center of the print.” -Bruno Ernst ",
       url: "/Images/EscherThumbnail/B388 Relativity in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B388 Relativity in Frame.jpg",
       id: "42",
@@ -548,7 +548,7 @@ const pathArray = [
     },
     {
       name: "Spirals",
-      description: "",
+      description: "1953, wood engraving\n This piece depicts black and grey spirals, produced using two blocks. These spirals describe two parts of the piece. The first spiral is the circle going into itself, and the second spiral is the spirals making up the original circle. ",
       url: "/Images/EscherThumbnail/B390 Spirals close.jpg",
       thumb: "/Images/EscherThumbnail/B390 Spirals close.jpg",
       id: "43",
@@ -561,7 +561,7 @@ const pathArray = [
     },
     {
       name: "Tetrahedral Planetoid",
-      description: "",
+      description: "1954, woodcut\n Escher created this piece using two blocks. Green and black ink were used to create this stimulating three-dimensional piece. Tetrahedral Planetoid is made to represent a small crystal-like planet, floating through space. A mythical populated mini-world on a crystal. As Escher was fascinated with humans and space at the time. ",
       url: "/Images/EscherThumbnail/B395 Tetrahedral Planetoid close.jpg",
       thumb: "/Images/EscherThumbnail/B395 Tetrahedral Planetoid close.jpg",
       id: "44",
@@ -574,7 +574,7 @@ const pathArray = [
     },
     {
       name: "Convex and Concave",
-      description: "",
+      description: "1955\n The left half is Convex and the right half is Concave. Our eyes struggle between mirror symmetry and correctly situating the woman, the man, and or the ladder.“Just imagine, I spent more than a whole month, without a break, pondering over that print, because none of the attempts I made ever seemed to turn out simple enough. The prerequisite for a good print – and by ‘good’ I mean a print that brings a response from a fairly wide public quite incapable of understanding mathematical inversion unless it is set out extremely simply and explicitly – is that no hocus-pocus must be perpetrated, nor must it lack a proper and effortless connection with reality.” Escher in a letter to Ernst.",
       url: "/Images/EscherThumbnail/B399 Convex and Concave close.jpg",
       thumb: "/Images/EscherThumbnail/B399 Convex and Concave close.jpg",
       id: "45",
@@ -587,7 +587,7 @@ const pathArray = [
     },
     {
       name: "Liberation",
-      description: "",
+      description: "1955\n This piece depicts a scroll unrolling, at the bottom where the scroll has just been unrolled are tessellating black and white figures. But as you go further up the scroll the figures slowly become clearer black and white birds until they are no longer tessellating and are flying free. Escher worked on a print to commemorate the 10th anniversary of the liberation on May 5th. As with many of his prints, he began with a drawing from years earlier, specifically drawing no. 71 from 1948. This same drawing was previously used for another print, the woodcut Sun and Moon, which also dates from 1948, indicating a closer link with the original drawing compared to Liberation.",
       url: "/Images/EscherThumbnail/B400 Liberation close.jpg",
       thumb: "/Images/EscherThumbnail/B400 Liberation close.jpg",
       id: "46",
@@ -600,7 +600,7 @@ const pathArray = [
     },
     {
       name: "Order and Chaos 2",
-      description: "",
+      description: "1955\n Order and Chaos II is a circle of different stones around a multi-pointed star. Escher revisited the theme of Order and Chaos in his final work, proving that even a chaotic scatter of stones is organized at the molecular level. This piece, also known as Compass Rose, features crystal points that resemble the compass designs on nautical maps. This print was commissioned by a Masonic chapter in Holland and was left unsigned.",
       url: "/Images/EscherThumbnail/B402 order and Chaos 2 close.jpg",
       thumb: "/Images/EscherThumbnail/B402 order and Chaos 2 close.jpg",
       id: "47",
@@ -613,7 +613,7 @@ const pathArray = [
     },
     {
       name: "Depth",
-      description: "",
+      description: "1955, wood engraving and woodcut\n These flying red and brown fish are a reference to the war. This piece uses brown-red, grey-green, and dark brown, and was produced using three blocks. Escher was not satisfied with this piece and wrote about struggling with it. “After almost endless effort I finished my new fish print. Although I am absolutely not satisfied with it (the simplicity of the “depth suggestion” to be expressed is one of the most difficult tasks I have ever set myself), I cannot consider it completely unsuccessful either.” A letter from Escher to his son.",
       url: "/Images/EscherThumbnail/B403 Depth close.jpg",
       thumb: "/Images/EscherThumbnail/B403 Depth close.jpg",
       id: "48",
@@ -626,7 +626,7 @@ const pathArray = [
     },
     {
       name: "Three Worlds",
-      description: "",
+      description: "1955, lithograph\n In Three Worlds, the reflective surfaces of ponds, lakes, and mud puddles provided him with rich inspiration. Escher integrates three realms in this piece: the fish underwater, the leaves floating on the surface, and the reflection of trees in the water. He demonstrates a layered, three-dimensional effect within a one-dimensional work. Escher depicts his fascination with nature and reflections, inspired by his walks through the woods around his hometown in the Netherlands.",
       url: "/Images/EscherThumbnail/B405 Three Worlds close.jpg",
       thumb: "/Images/EscherThumbnail/B405 Three Worlds close.jpg",
       id: "49",
@@ -652,7 +652,7 @@ const pathArray = [
     },
     {
       name: "Bond of Union in Frame",
-      description: "",
+      description: "1956, lithograph\n This piece depicts Escher and his wife made of one connected strip, with many floating spheres around them. Loosely inspired by HG Wells “The Invisible Man”, Escher shows the eternal bond between himself and his wife Jetta. ",
       url: "/Images/EscherThumbnail/B409 Bond of Union in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B409 Bond of Union in Frame.jpg",
       id: "51",
@@ -665,7 +665,7 @@ const pathArray = [
     },
     {
       name: "Print Gallery",
-      description: "",
+      description: "1956, lithograph\n Escher created this piece with visual recursion, of a man looking over the city and the sea. He struggled to complete the center of the print; and did not originally realize that the image was recursive, endlessly spiraling inward. Henrik Lenstra, Dutch mathematician, identified the mistake Escher made in his graphs and solved the problem for him.",
       url: "/Images/EscherThumbnail/B410 Print Gallery in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B410 Print Gallery in Frame.jpg",
       id: "52",
@@ -678,7 +678,7 @@ const pathArray = [
     },
     {
       name: "Fish Vingnette invitation in Frame",
-      description: "",
+      description: "1956, woodcut\n Escher created a circle of tessellating black and white fish for the center of the invitation. A highly rare piece, printed for an announcement of an Escher exhibition, is closely related to the larger Whirlpools series.",
       url: "/Images/EscherThumbnail/B414 Fish Vingnette invitation in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B414 Fish Vingnette invitation in Frame.jpg",
       id: "53",
@@ -691,7 +691,7 @@ const pathArray = [
     },
     {
       name: "Cube with Magic Ribbon",
-      description: "",
+      description: "1957, lithograph\n Cube with Ribbons depicts a cube with objects that can appear either convex or concave and can be positioned in front of or behind other elements. The two ellipses, intersecting at right angles, have been expanded into ribbon-like shapes. The four semi-ellipses can be rotated towards or away from the viewer, creating multiple possible interpretations at each intersection. The patterns on the ribbons can be perceived either as protruding hemispheres with a central indentation or as indentations with a central hemisphere.",
       url: "/Images/EscherThumbnail/B415 Cube with Magic Ribbon in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B415 Cube with Magic Ribbon in Frame.jpg",
       id: "54",
@@ -704,7 +704,7 @@ const pathArray = [
     },
     {
       name: "Plane Filling 2",
-      description: "",
+      description: "1957, lithograph\n White and black connected animals and objects make up this piece. Escher designed the Mosaic works as a playful challenge to amuse his children. He began with a single shape and then added more around it, allowing each new shape to 'define' itself as he continued.",
       url: "/Images/EscherThumbnail/B422 Plane Filling 2 in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B422 Plane Filling 2 in Frame.jpg",
       id: "55",
@@ -717,7 +717,7 @@ const pathArray = [
     },
     {
       name: "Whirlpools",
-      description: "",
+      description: "1957, wood engraving\n Woodcut, second state, in red, grey, and black, fish swirling and circling each other. The fish create an S shape with their circling.",
       url: "/Images/EscherThumbnail/B423 Whirlpools in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B423 Whirlpools in Frame.jpg",
       id: "56",
@@ -730,7 +730,7 @@ const pathArray = [
     },
     {
       name: "Whirlpools Proof",
-      description: "",
+      description: "1957, woodcut\n This wood engraving depicts red and black fish swirling around one another. They create an S shape with their circling. ",
       url: "/Images/EscherThumbnail/B423 Whirlpools Proof in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B423 Whirlpools Proof in Frame.jpg",
       id: "57",
@@ -743,7 +743,7 @@ const pathArray = [
     },
     {
       name: "Belvvedere",
-      description: "",
+      description: "1958, lithograph\n Escher transforms the impossible cube, held by the man confused in the lower left, into an architectural marvel. The building itself with its tall thin pillars and white domes creates a home for its inhabitants. These elements come together to create a stunningly surreal scene. The inhabitants of Belvedere, are seemingly inspired by Hieronymus Bosch's Garden of Earthly Delights triptych. They are set against the backdrop of the Abruzzi mountains in Italy. ",
       url: "/Images/EscherThumbnail/B426 Belvvedere close.jpg",
       thumb: "/Images/EscherThumbnail/B426 Belvvedere close.jpg",
       id: "58",
@@ -756,7 +756,7 @@ const pathArray = [
     },
     {
       name: "Sphere Surface with Fish",
-      description: "",
+      description: "1958, woodcut\n Printed from two wood blocks and a linoleum block, this piece depicts fish connected with one another swimming on a sphere. These black and white fish, seemingly made of tiles, swim in a whirlpool on a sphere on a red background. ",
       url: "/Images/EscherThumbnail/B427 Sphere Surface with Fish in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B427 Sphere Surface with Fish in Frame.jpg",
       id: "59",
@@ -769,7 +769,7 @@ const pathArray = [
     },
     {
       name: "Sphere Spirals",
-      description: "",
+      description: "1958, woodcut\n This sphere has grey grids, as well as yellow and pink spiraled ribbons. Escher printed this piece using four blocks in grey, black, yellow, and pink.",
       url: "/Images/EscherThumbnail/B428 Sphere Spirals with Frame.jpg",
       thumb: "/Images/EscherThumbnail/B428 Sphere Spirals with Frame.jpg",
       id: "60",
@@ -782,7 +782,7 @@ const pathArray = [
     },
     {
       name: "Flatworms in Frame",
-      description: "",
+      description: "1959, lithograph\n Flatworms roaming through a mix of geometrical shapes and lines. Escher determined that the architecture would be fitting underwater. The flatworms swimming through this underwater and mathematical realm were inspired by illustrations from the book Animals Without Backbones. Escher’s flatworms can be viewed in a few other pieces in his collection.",
       url: "/Images/EscherThumbnail/B431 Flatworms in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B431 Flatworms in Frame.jpg",
       id: "61",
@@ -795,7 +795,7 @@ const pathArray = [
     },
     {
       name: "Circle Limit 2 in Frame",
-      description: "",
+      description: "1959, woodcut\n A somewhat tessellating pattern of “X’s” differing in color and outline, fills the circle. Escher utilized two blocks to print in red and black to create this piece.",
       url: "/Images/EscherThumbnail/B432 Circle Limit 2 in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B432 Circle Limit 2 in Frame.jpg",
       id: "62",
@@ -808,7 +808,7 @@ const pathArray = [
     },
     {
       name: "Fish and Scales",
-      description: "",
+      description: "1959, woodcut\n Using a rounded square containing many fish of different sizes in many patterns (including tessellations) Escher fills up every inch of the given outline.",
       url: "/Images/EscherThumbnail/B433 Fish and Scales in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B433 Fish and Scales in Frame.jpg",
       id: "63",
@@ -821,7 +821,7 @@ const pathArray = [
     },
     {
       name: "Ascending and Descending",
-      description: "",
+      description: "1960, lithograph\n Pay close attention to the details of this optical illusion. The view from above of the architecture displays the detail of the piece as well as the curious people walking on the top walkways. This iconic piece exemplifies Escher's skill in twisting reality just enough to make it impossible!",
       url: "/Images/EscherThumbnail/B435 Ascending and Descending close.jpg",
       thumb: "/Images/EscherThumbnail/B435 Ascending and Descending close.jpg",
       id: "64",
@@ -834,7 +834,7 @@ const pathArray = [
     },
     {
       name: "Circle Limit 4",
-      description: "",
+      description: "1960, woodcut\n Also known as Heaven and Hell or Angels and Devils, this circle limit piece depicts tessellating devil bats and flying angels. Printed from two blocks, Escher created hyperbolic graphs and tessellations. With the assistance of Canadian Professor H.S.M. Coxeter. This work encapsulates infinity and confines it within a boundary. This final Limit woodcut, known as “Angels and Demons,” is the most intricate of the tessellated figures.",
       url: "/Images/EscherThumbnail/B436 Circle Limit 4 close.jpg",
       thumb: "/Images/EscherThumbnail/B436 Circle Limit 4 close.jpg",
       id: "65",
@@ -847,7 +847,7 @@ const pathArray = [
     },
     {
       name: "Moebius Strip 1",
-      description: "",
+      description: "1961, woodcut\n The red and green twisted strips create a knot-like six-sided figure. Escher’s wood engraving and line-cut printing were from four blocks. The green strips in this work look somewhat similar to the flatworm figures from his other works. ",
       url: "/Images/EscherThumbnail/B437 Moebius Strip 1 close.jpg",
       thumb: "/Images/EscherThumbnail/B437 Moebius Strip 1 close.jpg",
       id: "66",
@@ -860,7 +860,7 @@ const pathArray = [
     },
     {
       name: "Waterfall",
-      description: "",
+      description: "1961, lithograph\n Waterfall is one of Escher’s most iconic structures. This structure gets filled with water and creates a waterfall through the architecture. Escher clarified that it was not a true waterfall; he noted that the miller “needs to add a bucketful of water from time to time to make up for the loss through evaporation. This image is inspired by the Penrose triangle.",
       url: "/Images/EscherThumbnail/B439 Waterfall close.jpg",
       thumb: "/Images/EscherThumbnail/B439 Waterfall close.jpg",
       id: "67",
@@ -873,7 +873,7 @@ const pathArray = [
     },
     {
       name: "Moebiu Strip 2",
-      description: "",
+      description: "1961, woodcut\n Also known as “Red Ants” by Escher, this piece depicts large red ants walking along a twisted strip. The brown strip is grided and curved in an infinity-type shape.",
       url: "/Images/EscherThumbnail/B441 Moebiu Strip 2 close.jpg",
       thumb: "/Images/EscherThumbnail/B441 Moebiu Strip 2 close.jpg",
       id: "68",
@@ -886,7 +886,7 @@ const pathArray = [
     },
     {
       name: "Knot single know with burn in Frame",
-      description: "",
+      description: "1965, woodcut\n Escher’s knot pieces tend to be fairly similar, but this piece stands out because of the burn mark below the artwork. This red knot sits in a frame, but a special and seemingly accidental burn mark sits underneath the knot. ",
       url: "/Images/EscherThumbnail/B444 Knot single know with burn in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knot single know with burn in Frame.jpg",
       id: "69",
@@ -899,7 +899,7 @@ const pathArray = [
     },
     {
       name: "Knots",
-      description: "",
+      description: "1965, woodcut\n Knots depicts three different unique knots on the same page. Escher printed this work using 3 wood blocks. The knot in the top left is the same type of knot from Knot single knot with burn in Frame. The knot in the top right looks like a smooth cylinder that has been tied in a knot. The big knot on the bottom is a textured red and green knot. ",
       url: "/Images/EscherThumbnail/B444 Knots close.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knots close.jpg",
       id: "70",
@@ -912,7 +912,7 @@ const pathArray = [
     },
     {
       name: "Knots unique drawing of large knot",
-      description: "",
+      description: "This piece is a sketch of a corner of what would be a very detailed knot.",
       url: "/Images/EscherThumbnail/B444 Knots unique drawing of large knot.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knots unique drawing of large knot.jpg",
       id: "71",
@@ -925,7 +925,7 @@ const pathArray = [
     },
     {
       name: "Knots Wood Block A",
-      description: "",
+      description: "This wood block was used for printing the large knot in “Knots.” This wood block was used for another layer of detail and texture to the large knot at the bottom of the piece.",
       url: "/Images/EscherThumbnail/B444 Knots Wood Block A.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Block A.jpg",
       id: "72",
@@ -938,7 +938,7 @@ const pathArray = [
     },
     {
       name: "Knots Wood Block B",
-      description: "",
+      description: "This wood block was used for printing the large knot in “Knots.” This wood block was used for another layer of detail and texture to the large knot at the bottom of the piece.",
       url: "/Images/EscherThumbnail/B444 Knots Wood Block B.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Block B.jpg",
       id: "73",
@@ -951,7 +951,7 @@ const pathArray = [
     },
     {
       name: "Knots Wood Block C",
-      description: "",
+      description: "This wood block was used for printing the large knot in “Knots.” This wood block was used for another layer of detail and texture to the large knot at the bottom of the piece.",
       url: "/Images/EscherThumbnail/B444 Knots Wood Block C.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Block C.jpg",
       id: "74",
@@ -964,7 +964,7 @@ const pathArray = [
     },
     {
       name: "Knots Wood Blocks 3",
-      description: "",
+      description: "Picture of the three blocks that Escher used to create Knots.",
       url: "/Images/EscherThumbnail/B444 Knots Wood Blocks 3.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Blocks 3.jpg",
       id: "75",
@@ -977,7 +977,7 @@ const pathArray = [
     },
     {
       name: "Knots Wood Blocks all",
-      description: "",
+      description: "Picture of the three blocks that Escher used to create Knots.",
       url: "/Images/EscherThumbnail/B444 Knots Wood Blocks all.jpg",
       thumb: "/Images/EscherThumbnail/B444 Knots Wood Blocks all.jpg",
       id: "76",
@@ -990,7 +990,7 @@ const pathArray = [
     },
     {
       name: "Path of Life",
-      description: "",
+      description: "1966, woodcut print\n Tessellating black and white birds, with a red oval flower-like pattern on top of them.",
       url: "/Images/EscherThumbnail/B445 Path of Life close.jpg",
       thumb: "/Images/EscherThumbnail/B445 Path of Life close.jpg",
       id: "77",
@@ -1016,7 +1016,7 @@ const pathArray = [
     },
     {
       name: "Pearl Jam Emek Day and Night 2018 close",
-      description: "",
+      description: "This is a piece created by EMEK in 2018 for a Pearl Jam concert commemoration. It is inspired by Escher’s work and uses tessellations of bombs being dropped from the sky; there is a black-and-white version as well as a red ink version.",
       url: "/Images/EscherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg",
       thumb: "/Images/EscherThumbnail/P111 Pearl Jam Emek Day and Night 2018 close.jpg",
       id: "79",
@@ -1055,7 +1055,8 @@ const pathArray = [
     },
     {
       name: "Other World close",
-      description: "",
+      description: "1947, woodcut\n Another World, also referred to as Other World,  presents the same scene from three distinct perspectives. Depicting an otherworldly lunar landscape inhabited by the mythological Simurgh, a bird with a human head. The cubic structure suggests a sense of confinement, while the surrounding universe extends infinitely. Saturn is in the lower right corner, and a spiral galaxy, likely Andromeda—Edwin Hubble's groundbreaking 1923 discovery that revealed the existence of galaxies beyond our own—sits in the lowest window.
+",
       url: "/Images/EscherThumbnail/B348 Other World close.jpg",
       thumb: "/Images/EscherThumbnail/B348 Other World close.jpg",
       id: "82",
@@ -1068,7 +1069,7 @@ const pathArray = [
     },
     {
       name: "Stars in Frame",
-      description: "",
+      description: "1948,\n wood engraving The three-dimensional stars are created using a type of icosahedron type shape. These three-dimensional shapes are floating through space, and in the largest one at the front, many chameleons are sitting in the star. Escher printed this piece from four blocks with overlapping colors.",
       url: "/Images/EscherThumbnail/B359 Stars in Frame.jpg",
       thumb: "/Images/EscherThumbnail/B359 Stars in Frame.jpg",
       id: "83",
@@ -1081,7 +1082,7 @@ const pathArray = [
     },
     {
       name: "to B385 Strens Elements all",
-      description: "",
+      description: "1952\n Strens’s commission to Escher for the 1952 New Year’s greetings followed a well-established tradition and added his unique touch by representing the four elements tessellating. Each reflects the color and motion of the element it represents. “The system of Fire is based solely on glide reflection; in Water, a rotation around a twofold axis, located in the centre of the square, occurs, i.e. all the blue fish are congruent “en bloc” with the brown; Air is a shifting system, in which neither axes nor reflection occurs. The first sketch (“Earth”), which I showed you earlier, is based on another system: in it, there are twofold and fourfold axes.” Escher in a letter to Strens, 1952.",
       url: "/Images/EscherThumbnail/B382 to B385 Strens Elements all close.jpg",
       thumb: "/Images/EscherThumbnail/B382 to B385 Strens Elements all close.jpg",
       id: "84",
