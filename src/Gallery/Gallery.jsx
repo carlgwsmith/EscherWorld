@@ -63,11 +63,12 @@ export default function Gallery(props){
   // Initialize Firebase
 //   const app = initializeApp(firebaseConfig);
 //   const analytics = getAnalytics(app);
-    return(<>
+    return(
+    <>
     <div className="grid grid-cols-3 gap-4 mt-[60px] mb-[20px]">
         <div className='col-span-3'>
-            <h2 className="text-4xl text-center font-bold">M.C. Escher Collection</h2>
-            <p className='text-center text-md'>A look into what our M.C. Escher Collection</p>
+            <h2 className="text-4xl text-center font-bold text-white">M.C. Escher Collection</h2>
+            <p className='text-center text-md text-white'>A look into what our M.C. Escher Collection</p>
         </div>
     </div>
     <div className="grid sm:grid-cols-1 md:grid-cols-8 gap-4 my-4 text-center xs:mx-[20px] sm:mx-[20px] md:mx-[60px] mb-[40px]">
