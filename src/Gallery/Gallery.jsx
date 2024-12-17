@@ -7,6 +7,8 @@ import GalleryList from "./GalleryList"
 import { useEffect, useState } from "react";
 // import Skeleton from "react-loading-skeleton";
 import pathArray from "./Paths";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+
 
 export default function Gallery(props){
 
@@ -75,12 +77,21 @@ export default function Gallery(props){
         <div className="xs:col-span-1 md:col-span-8">
             <p className="text-snow font-bold uppercase">Select a Medium</p>
         </div>
-        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Paintings</div>
-        <div className="xs:col-span-1 md:col-span-2 sort-active">Drawing</div>
-        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Printmaking</div>
-        <div className="xs:col-span-1 md:col-span-2 sort-inactive">Woodblocks</div>
+        <div className="xs:col-span-1 md:col-span-8 flex justify-center">
+        <Tabs defaultValue="paintings">
+  <TabsList>
+    <TabsTrigger value="paintings">Paintings</TabsTrigger>
+    <TabsTrigger value="drawings">Drawings</TabsTrigger>
+    <TabsTrigger value="printmaking">Printmaking</TabsTrigger>
+    <TabsTrigger value="woodblocks">Woodblocks</TabsTrigger>
+  </TabsList>
+  <TabsContent value="paintings">paintings here.</TabsContent>
+  <TabsContent value="drawings">drawings here.</TabsContent>
+  <TabsContent value="printmaking">prints here.</TabsContent>
+  <TabsContent value="woodblocks">woodblocks here.</TabsContent>
+</Tabs>
     </div>
-
+</div>
     <GalleryList itemsPerPage={12} />
     </>
     )
